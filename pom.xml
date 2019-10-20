@@ -24,7 +24,7 @@
                         <phase>compile</phase>
                         <configuration>
                             <target>
-                                <xslt basedir="." destdir="build" includes="cv.xml" extension=".html"
+                                <xslt destdir="${project.build.directory}" basedir="."  includes="cv.xml" extension=".html"
                                       style="src/google-site.xsl"></xslt>
 
                             </target>
@@ -42,7 +42,7 @@
                                 <fop format="application/pdf"
                                      xmlfile="cv.xml"
                                      xsltfile="fo/fo-cv.xsl"
-                                     outfile="build/cv.pdf" />
+                                     outfile="${project.build.directory}/cv.pdf" />
                             </target>
                         </configuration>
                         <goals>
