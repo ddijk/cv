@@ -7,29 +7,30 @@
         #menu {
             width: 102px;
             float: left;
+            /*border: 1px solid #f00;*/
         }
+
+        p {
+            font-size: 20px;
+        }
+
         ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
-            width: 100px;
             font-family: "Courier New";
             font-size: 20px;
             background-color: #fff;
-            /*border: 1px solid #f00;*/
         }
 
         li a {
             display: block;
             color: #000;
-            padding: 8px 16px;
+            padding: 0px 16px 8px 16px;
             text-decoration: none;
         }
 
-        /* Change the link color on hover */
         li a:hover {
-            /*background-color: #555;*/
-            /*color: white;*/
             font-weight: bold;
         }
 
@@ -46,21 +47,688 @@
             font-family: "Courier New";
             margin-left: 120px;
         }
+
+        #logo {
+            cursor: pointer;
+        }
+
+        #dd {
+            width: 300px;
+        }
+
+    </style>
+    <style type="text/css">
+        div {
+            font-family: Arial;
+        }
+
+        #titel {
+            font: 24pt Arial;
+            text-align: center;
+        }
+
+        #voorblad-gegevens {
+            font-color: #f00;
+            font-size: 12pt;
+        }
+
+        .kop2 {
+            font: 16pt Arial;
+            font-color: #efefef;
+            margin: 20px 0px;
+            margin-bottom: 5px;
+        }
+
+        .kop3 {
+            font: 12pt Arial;
+            font-style: italic;
+            margin: 10px 0;
+        }
+
+        .key {
+            width: 150px;
+            float: left;
+        }
+
+        .value {
+            clear: right;
+            margin-left: 155px;
+            padding: 2px;
+        }
+
+        #personalia, #opleidingen, #talen, #opdrachten, #ervaringen {
+            margin-left: 5px;
+        }
+
+        #opleidingen {
+            margin-top: 20px;
+        }
+
+        .opdracht {
+            margin: 10px 0;
+            margin-bottom: 18px;
+            padding: 8px;
+            clear: both;
+        }
+
+        #ervaringen {
+            clear: right;
+        }
+
+        .odd {
+            background-color: #eee;
+        }
+
+        .even {
+            background-color: #fff;
+        }
+
+        .container {
+            padding: 3px 8px;
+        }
+
+        .opleiding {
+            margin: 4px 0;
+        }
     </style>
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
 </head>
 <body>
 <div><img id="logo" src="logo_dijkrosoft_with_name.gif"></div>
 <div id="menu">
-<ul>
-    <li id="menu_cv"><a href="#cv">CV</a></li>
-    <li id="menu_contact"><a href="#contact">Contact</a></li>
-</ul>
+    <ul>
+        <li id="menu_cv"><a href="#cv">CV</a></li>
+        <li id="menu_contact"><a href="#contact">Contact</a></li>
+    </ul>
 </div>
 <div id="container">
-<div id="home">Home is ldsfaj</div>
-<div id="contact">Contact me at...</div>
-<div id="cv">Read my CV at...</div>
+    <div id="home">
+        <img id="dd" src="dick.jpg">
+        <br>
+        Hallo, ik ben freelance Java expert en houd me voornamelijk bezig met Java Enterprise application
+        development, web development en SAP webshops. Zie mijn CV voor details.
+        Ik heb de volgende certificaten (zie ook <a target="_blank"
+                                                    href="https://www.youracclaim.com/users/dick-dijk/badges">Acclaim</a>)</p>
+
+        <li> Oracle Certified Expert, Java EE 6 JavaServer Faces Developer</li>
+        <li> Oracle Certified Professional, Java SE 8 Programmer</li>
+        <li> Oracle Certified Expert JPA Developer</li>
+        <li> Sun Certified Developer for Java Webservices</li>
+        <li> Sun Certified Java Programmer</li>
+        <li> Sun Certified Java Developer</li>
+        <li> Sun Certified Web Component Developer</li>
+        <li> Sun Certified Business Component Developer</li>
+        <li> Sun/Oracle Certified Enterprise Architect</li>
+        </ul>
+    </div>
+    <div id="contact">Je kunt me bereiken op <span id="e"></span> of <span id="p"></span></div>
+    <div id="cv">
+        <div id="personalia">
+            <div class="kop2">Personalia</div>
+            <div class="container">
+                <div id="naam">
+                    <div class="key">Naam:</div>
+                    <div class="value">Dick Dijk</div>
+                </div>
+                <div id="functies">
+                    <div class="key">Functie:</div>
+                    <div class="value">Developer / Architect</div>
+                </div>
+                <div id="geboortedatum">
+                    <div class="key">Geboortedatum:</div>
+                    <div class="value"> 8 juli 1973</div>
+                </div>
+                <div id="woonplaats">
+                    <div class="key">Woonplaats:</div>
+                    <div class="value">Vleuten</div>
+                </div>
+            </div>
+        </div>
+        <div id="opleidingen">
+            <div class="kop2">Opleidingen</div>
+            <div class="container">
+                <div class="kop3">Regulier onderwijs</div>
+                <div class="opleiding">Basisschool (Goede Herder school, 1985)</div>
+                <div class="opleiding">Atheneum B (Chr. Lyceum Gouda, 1991)</div>
+                <div class="opleiding">Luchtvaart- en Ruimtevaarttechniek (TU Delft, 1997)</div>
+                <div class="kop3">IT opleidingen</div>
+                <div class="opleiding">Oracle Certified Professional, Upgrade OCP Java 6, 7 &amp; 8 to Java SE 11
+                    Developer (zelfstudie, 2019)
+                </div>
+                <div class="opleiding">Oracle Certified Expert, Java EE 6 JavaServer Faces Developer (zelfstudie,
+                    2016)
+                </div>
+                <div class="opleiding">Oracle Certified Professional, Java SE 8 Programmer (zelfstudie, 2015)</div>
+                <div class="opleiding">Oracle Certified Expert JPA Developer (zelfstudie, 2013)</div>
+                <div class="opleiding">Groovy (Inter Access, Frans van Buul, 2012)</div>
+                <div class="opleiding">JQuery (Envator, 2012)</div>
+                <div class="opleiding">Masterclass TDD (Zilverline, Robert C. Martin, 2010)</div>
+                <div class="opleiding">Sun Certified Developer for Java Webservices (zelfstudie, 2010)</div>
+                <div class="opleiding">Sun Certified Java Programmer, JDK 6 (zelfstudie, 2009)</div>
+                <div class="opleiding">Java Performance Tuning (Xebia, 2006)</div>
+                <div class="opleiding">EJB 3.0 (InfoSupport, 2006)</div>
+                <div class="opleiding">KHO Gecertificeerd Softwarearchitect (Open Universiteit, 2006)</div>
+                <div class="opleiding">Sun Certified Business Component Developer (zelfstudie, 2005)</div>
+                <div class="opleiding">Sun Certified Web Component Developer (zelfstudie, 2004)</div>
+                <div class="opleiding">Sun Certified Java Developer (zelfstudie, 2004)</div>
+                <div class="opleiding">Sun Certified Java Programmer , JDK 1.4 (zelfstudie, 2003)</div>
+                <div class="opleiding">Enterprise Java Beans (Sun, 2002)</div>
+                <div class="opleiding">Visueel Java programmeren (Open Universiteit (zelfstudie), 2001)</div>
+                <div class="opleiding">Objectgeori&euml;nteerd programmeren met Java (Open Universiteit (zelfstudie),
+                    2001)
+                </div>
+            </div>
+        </div>
+        <div id="talen">
+            <div class="kop2">Talen</div>
+            <div class="container">Nederlands, Engels, Frans, Duits</div>
+        </div>
+        <div id="ervaringen">
+            <div class="kop2">Ervaringen</div>
+            <div class="container">
+                <div id="methods" class="key">Methoden</div>
+                <div class="value">Scrum, Agile, Test Driven Development (TDD), Patterns, Object Oriented, UML, RUP
+                </div>
+                <div id="tools" class="key">Tools</div>
+                <div class="value">IntelliJ, Eclipse, NetBeans, JBuilder, NetWeaver Developer Studio, Rational Rose, CA
+                    Wily Introscope, NeoLoad, JMeter, Toad, SmartGit
+                </div>
+                <div id="programmeertalen" class="key">Talen</div>
+                <div class="value">Java, Groovy, JavaScript, PL/SQL, JQuery, Bash, Awk, Sed, Perl, C, C++</div>
+                <div id="appservers" class="key">Appservers</div>
+                <div class="value">OpenEJB, Glassfish, WebLogic, WebSphere, JBoss, Tomcat, SAP WAS</div>
+                <div id="versiebeheersystemen" class="key">Versiebeheer</div>
+                <div class="value">Git, Subversion, CVS, SAP NWDI, ClearCase</div>
+                <div id="testing" class="key">Testing</div>
+                <div class="value">Cucumber, TDD, Mockito, TestNG, JUnit</div>
+                <div id="technologies" class="key">Technologies</div>
+                <div class="value">HighCharts, Selenide, Angular, Nexus, SoapUI, Selenium, Hudson/Jenkins,
+                    CruiseControl, FinalBuilder, SAP Netweaver, MKS, Ant, Maven, SAP CRM, SAP ISA, SAP Webshops, Oracle,
+                    MySQL, MaxDb, PostgreSQL, SQLServer, HBase, Solr, Hadoop, MapReduce, Apache Pig, CORBA, XML, XSLT,
+                    XML Schema (XSD), JEE, J2EE, JSP, EJB, Servlets, JPA, JSF, Webservices, WSDL, XPath, SOA, LDAP,
+                    JAAS, Swing, Struts, Google Analytics, BugZilla, Jira, iDEAL, SEO, JSTD-016, Log4j, Hibernate,
+                    Spring MVC, Ajax, Sonar
+                </div>
+                <div id="besturingssystemen" class="key">Besturingssystemen</div>
+                <div class="value">Windows, Linux, Unix, OS X, iOS</div>
+            </div>
+        </div>
+        <div id="opdrachten">
+            <div class="kop2">Opdrachten</div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 8 juli 2019 - 31 oktober 2019</div>
+                <div class="key">Branche:</div>
+                <div class="value">Finance</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Goal based planning</div>
+                <div class="key">Technologies</div>
+                <div class="value">Java, Swagger, Enunciate, OpenAPI, WebLogic, Git, Maven, Jenkins, Mockito,
+                    REST-Assured
+                </div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Externe API beschikbaar gemaakt in OpenAPI v3 formaat, waardoor client applicaties
+                    grotendeels gegenereerd kunnen worden. Verder bijgedragen aan verdere ontwikkeling van de applicatie
+                    voor financi&euml;le planning
+                </div>
+            </div>
+            <div class="opdracht even">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 oktober 2018 - 30 juni 2019</div>
+                <div class="key">Branche:</div>
+                <div class="value">Onderwijs</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer/Architect</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Mobiele apps voor studenten</div>
+                <div class="key">Technologies</div>
+                <div class="value">Tomcat, Java, SpringBoot, Git, Maven, Jenkins, Docker, SonarQube, Mockito,
+                    REST-Assured
+                </div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Ontwerp en bouw van Java backend die de mobiele app ondersteunt. Applicatie heeft een
+                    plugin architectuur die gebaseerd is op het standaard Java services mechanisme. De applicatie maakt
+                    gebruik van het Java Platform Module System (Java 11) en tevens van Custom Runtime Images.
+                </div>
+            </div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 18 september 2016 - 30 september 2018</div>
+                <div class="key">Branche:</div>
+                <div class="value">Overheid</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Werk en Inkomen</div>
+                <div class="key">Technologies</div>
+                <div class="value">Tomcat, Java, Git, Maven, Jenkins, GWT, Gerrit, Docker, Kubernetes</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Implementeren van webapplicatie die ambtenaren ondersteunt bij uitvoeren van taken.
+                    Presenteren van voortgang.
+                </div>
+            </div>
+            <div class="opdracht even">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 april 2016 - 13 september 2016</div>
+                <div class="key">Branche:</div>
+                <div class="value">Financieel</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Rabo Hypotheek Dossier (RHD)</div>
+                <div class="key">Technologies</div>
+                <div class="value">WebSphere, Java, Git, Maven, Flyway, PowerCenter</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Implementeren van functionele aanpassingen aan RHD applicatie en maken van SQL
+                    scripts t.b.v. rapportage
+                </div>
+            </div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 oktober 2015 - 1 maart 2016</div>
+                <div class="key">Branche:</div>
+                <div class="value">Financieel</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Financial Planning</div>
+                <div class="key">Technologies</div>
+                <div class="value">WebLogic, Java, JPA, CDI, WebSphere, Git, Maven</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Migratie van JEE applicatie van WebLogic naar WebSphere</div>
+            </div>
+            <div class="opdracht even">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 april 2015 - 31 maart 2016</div>
+                <div class="key">Branche:</div>
+                <div class="value">Financieel</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Financial Planning</div>
+                <div class="key">Technologies</div>
+                <div class="value">Scrum, Agile, WebLogic, NetBeans, Struts, SQL, HighCharts, Git, Toad, JQuery, Java,
+                    HTML, CSS, REST, SoapUI, Javascript, Jenkins, Maven, Sonar, JUnit, JPA, JSF
+                </div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Implementatie van functionele aanpassingen aan een webapplicatie voor Financi&euml;le
+                    Planning.
+                </div>
+            </div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 februari 2013 - 31 maart 2015</div>
+                <div class="key">Branche:</div>
+                <div class="value">Financieel</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Investment Performance Rapportagetool</div>
+                <div class="key">Technologies</div>
+                <div class="value">Scrum, Agile, WebLogic, NetBeans, Struts, Quartz, REST, SQL, HighCharts,Toad, JQuery,
+                    Java, HTML, CSS, Javascript, FinalBuilder, Sonar, Ant, Maven, Jenkins, JUnit, Angular, JSF, JPA
+                </div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Ontwerp en implementatie van functionele aanpassingen aan een Investment Performance
+                    rapportagetool.
+                </div>
+            </div>
+            <div class="opdracht even">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 juli 2012 - 31 december 2012</div>
+                <div class="key">Branche:</div>
+                <div class="value">Overheid</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Java Enterprise</div>
+                <div class="key">Technologies</div>
+                <div class="value">Scrum, Agile, Glassfish, Oracle, NetBeans, JSF, SQL, Mootools, Java, HTML, CSS,
+                    Javascript, Nexus, TestNG, JUnit, PL/SQL, EJB, JPA, Maven, Jira
+                </div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Ontwerp en implementatie van functionele aanpassingen aan JEE webaplicatie.</div>
+            </div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 februari 2012 - 1 juni 2012</div>
+                <div class="key">Branche:</div>
+                <div class="value">Financieel</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Diverse JEE applicaties</div>
+                <div class="key">Technologies</div>
+                <div class="value">Scrum, Agile, WebLogic, NetBeans, Struts, SQL, Toad, JQuery, Java, HTML, CSS,
+                    Javascript, FinalBuilder
+                </div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Ontwerp en implementatie van functionele aanpassingen aan diverse JEE webaplicaties.
+                    Upgrade UI met o.a. JQuery, snapshot functionaliteit toegevoegd aan SAAS aaplicatie
+                </div>
+            </div>
+            <div class="opdracht even">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 juli 2011 - 1 november 2011</div>
+                <div class="key">Branche:</div>
+                <div class="value">Handel</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer / SAP Webshop developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">SAP CRM B2B webshop</div>
+                <div class="key">Technologies</div>
+                <div class="value">SAP NetWeaver, Java, JEE, ANT, Struts, HTML, Javascript, CSS</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Inrichting NWDI track. Implementatie van functionele aanpassingen aan B2B webshop.
+                </div>
+            </div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 april 2011 - 1 oktober 2011</div>
+                <div class="key">Branche:</div>
+                <div class="value">Farmacie</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer / SAP Webshop developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">SAP CRM B2B webshop</div>
+                <div class="key">Technologies</div>
+                <div class="value">SAP NetWeaver, Java, ANT, Eclipse, Subversion, Javascript, CSS, HTML</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Upgrade van SAP B2B R3 webshop. Restyling van webshop</div>
+            </div>
+            <div class="opdracht even">
+                <div class="key">Periode:</div>
+                <div class="value"> 14 februari 2011 - 1 februari 2012</div>
+                <div class="key">Branche:</div>
+                <div class="value">Techniek</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Verkeerskunde</div>
+                <div class="key">Technologies</div>
+                <div class="value">Java, OSGI, MySQL, Hibernate, JMS, Eclipse, JUnit, Swing, JAXB, JAX-WS</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Ontwerp en implementatie van verkeerskundige applicaties</div>
+            </div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 14 oktober 2010 - 11 februari 2011</div>
+                <div class="key">Branche:</div>
+                <div class="value">Media</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Digital Asset Management Systeem</div>
+                <div class="key">Technologies</div>
+                <div class="value">Java, Tomcat, Eclipse, ANT, HTML, CSS</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Bugfixing en functionele aanpassingen aan webapplicatie.</div>
+            </div>
+            <div class="opdracht even">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 juli 2010 - 1 oktober 2010</div>
+                <div class="key">Branche:</div>
+                <div class="value">Handel</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer / SAP Webshop developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">SAP CRM B2B webshop</div>
+                <div class="key">Technologies</div>
+                <div class="value">SAP NetWeaver, Java, J2EE, ANT, Google Analytics, ImageMagick, JQuery</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Ontwerp en implementatie van functionele aanpassingen aan B2B webshop.
+                    Advies/consultancy ter verbetering en uitwerking daarvan. Analyse en uitvoering van
+                    performanceverbetering. Implementatie van Google Analytics om meer inzicht te krijgen in
+                    gebruikersgedrag. Invoering van JQuery ter bevordering van de user experience
+                </div>
+            </div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 11 maart 2010 - 30 maart 2010</div>
+                <div class="key">Branche:</div>
+                <div class="value">Onderwijs</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer / SAP NWDI consultant</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">SAP Webshop</div>
+                <div class="key">Technologies</div>
+                <div class="value">SAP Netweaver, Eclipse, SAP NWDI</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Kennisoverdracht SAP NWDI development, Inrichten Development Track, SAP Webshop
+                    development
+                </div>
+            </div>
+            <div class="opdracht even">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 juli 2009 - 30 juni 2010</div>
+                <div class="key">Branche:</div>
+                <div class="value">Financieel</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Diverse JEE applicaties</div>
+                <div class="key">Technologies</div>
+                <div class="value">WebLogic, NetBeans, WebSphere, Webservices (JAX-WS), JAXB, ANT, ESB, Struts,
+                    NeoLoad
+                </div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Analyse en verbetering van Logging en Exception Handling in diverse applicaties,
+                    Performance analyse. Onderzoek naar voordelen van ESB architectuur. Opzetten ANT buildomgeving voor
+                    diverse applicaties. Migratie van JEE applicatie van WebLogic naar WebSphere, waaronder JAAS
+                    Authenticatiemodule. Implementatie van Webservices. Internationalisatie van webapplicatie.
+                    Functionele aanpassingen aan webapplicatie.
+                </div>
+            </div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 15 mei 2009 - 15 juni 2009</div>
+                <div class="key">Branche:</div>
+                <div class="value">Handel</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer / SAP Webshop developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">SAP CRM B2B webshop</div>
+                <div class="key">Technologies</div>
+                <div class="value">SAP NetWeaver, Java, J2EE, ANT</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Ontwerp en implementatie van functionele en Look&amp;Feel aanpassingen aan B2B
+                    webshop.
+                </div>
+            </div>
+            <div class="opdracht even">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 augustus 2008 - 31 december 2009</div>
+                <div class="key">Branche:</div>
+                <div class="value">Media</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">SAP Webshop</div>
+                <div class="key">Technologies</div>
+                <div class="value">SAP Netweaver, Eclipse, ANT, SAP CRM, iDEAL</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Uitvoeren van upgrade van webshop van ISA 5 naar ISA 6 (Backend upgrade van SAP CRM 5
+                    naar SAP CRM 2007. Opzetten van een Development Track voor de CRM 2007 versie in het NWDI systeem.
+                    Overzetten van al het maatwerk (Java software) van de oude naar de nieuwe versie, oplossen van
+                    conflicten tussen beide versies. Daarnaast functioneel beheer van de produktieshop en opleiding van
+                    interne developers. Verder maken van een batchapplicatie die de status van openstaande iDEAL orders
+                    in het CRM systeem opvraagt en update. Inpassen van diverse SEO scripts t.b.v. marketingdoeleinden.
+                    Implementatie van Google Analytics.
+                </div>
+            </div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 februari 2008 - 20 juni 2008</div>
+                <div class="key">Branche:</div>
+                <div class="value">Handel</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">SAP Webshop</div>
+                <div class="key">Technologies</div>
+                <div class="value">SAP Netweaver, Eclipse, SAP ECC, SAP NWDI</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Installatie van NWDI omgeving op Linux, installatie van development omgeving voor
+                    ontwikkelaars, configuratie van de webshop, aanpassen van standaard B2B webshop aan klant-specifieke
+                    stijl. Wegwijs maken van eigen medewerkers in het aanpassen van de standaard shop.
+                </div>
+            </div>
+            <div class="opdracht even">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 juli 2006 - 30 juni 2008</div>
+                <div class="key">Branche:</div>
+                <div class="value">Media</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">SAP Webshop</div>
+                <div class="key">Technologies</div>
+                <div class="value">Java, J2EE, SAP CRM, SAP ISA, NetWeaver, Struts</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Ondersteuning bij de upgrade van SAP CRM 4.0 naar 5.0. Analyse van welke nieuwe
+                    functionaliteit standaard wordt ondersteund door SAP en welke delen als maatwerk moeten worden
+                    ontworpen en geimplementeerd. Inpassen van een door derden gemaakt grafisch design in de standaard
+                    SAP Webshop. Aanpassen/ontwikkelen van JSPs, CSS stylesheets, Javascript, Java classes. Review op de
+                    nieuwe applicatie architectuur. Analyse van performance problemen, hierbij werd gebruik o.a. gemaakt
+                    van CA Wily Introscope en Apache Jmeter. Opleiding van interne mensen op het gebied van Java webshop
+                    development. Implementatie van iDeal online betalingssysteem als nieuwe betaalmogelijkheid in de
+                    webshop.
+                </div>
+            </div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 april 2006 - 1 juni 2006</div>
+                <div class="key">Branche:</div>
+                <div class="value">Overheid</div>
+                <div class="key">Rol</div>
+                <div class="value">Kwaliteitscontrole (QA)</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Software voor verkeerscentrales</div>
+                <div class="key">Technologies</div>
+                <div class="value">Corba (incl. Notification Service), Java</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Review van een complexe verkeerskundige applicatie, de review betreft zowel software
+                    als documentatie. Beoordeling van een uitgevoerde Corba middleware migratie en het onderzoeken van
+                    problemen met de software. Het team bestond verder uit een Corba expert van Prismtech en een IT
+                    auditor van BDO.
+                </div>
+            </div>
+            <div class="opdracht even">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 augustus 2005 - 30 april 2006</div>
+                <div class="key">Branche:</div>
+                <div class="value">Media</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Digital Asset Management</div>
+                <div class="key">Technologies</div>
+                <div class="value">Java, Eclipse, Ant, Struts, JSP, Servlets, Adobe Graphics Server, Linux, Oracle,
+                    Tomcat
+                </div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Begeleiding migratie van bestaande applicatie ( Digital Asset Management systeem)
+                    naar nieuwere versie van OS en webcontainer. Applicatie landschap bestond uit 2 Sun Solaris
+                    fileservers, 6 Tomcat applicatie servers en een Oracle database. Planning van migratie zodanig dat
+                    gebruikers hiervan zo min mogelijk hinder ondervonden. Het ging om 6 divisies van Philips die van de
+                    applicatie gebruik maken. Daarnaast hield Dick zich bezig met afhandelen van service calls ( 2de
+                    lijns ondersteuning) en toewijzen van bugs aan ontwikkelaars om deze op te lossen. Oplossen van
+                    bugs.
+                </div>
+            </div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 april 2005 - 12 augustus 2005</div>
+                <div class="key">Branche:</div>
+                <div class="value">Overheid</div>
+                <div class="key">Rol</div>
+                <div class="value">Java /CORBA ontwikkelaar</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Software voor verkeerscentrales</div>
+                <div class="key">Technologies</div>
+                <div class="value">CORBA, Message Oriented Middleware, CORBA (Notification Service), Java</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Analyse van stabiliteitsproblemen met CORBA middleware (incl. Notification Service).
+                    Testen van configuratie aanpassingen. Onderwerpen van applicatie aan duurtest en loadtest. Schrijven
+                    van installatiehandleidingen. Ondersteuning bij demonstraties en opleiding van eindgebruikers
+                    (operators in Verkeerscentrales).
+                </div>
+            </div>
+            <div class="opdracht even">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 oktober 2004 - 20 maart 2005</div>
+                <div class="key">Branche:</div>
+                <div class="value">Overheid</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Workflow applicaties</div>
+                <div class="key">Technologies</div>
+                <div class="value">Unified Process, Object Ori&euml;ntatie, UML, Java, Eclipse, Ant, J2EE (EJB,
+                    servlets), Struts, MySQL, Oracle, PostgreSQL, WSDL, CVS, Redhat Linux, Windows XP, MiddleGen,
+                    Lomboz, Apache Axis, OpenLDAP, A-Select SSO.
+                </div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Ontwikkeling van diverse J2EE applicaties, waaronder een webapplicatie voor het
+                    aanvragen van cultuurcheques en een electronische agenda. Ontwikkeling van webservice voor een
+                    personeelsinformatiesysteem op basis van Lomboz en Apache Axis.
+                </div>
+            </div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 juni 2004 - 30 september 2004</div>
+                <div class="key">Branche:</div>
+                <div class="value">Financieel</div>
+                <div class="key">Rol</div>
+                <div class="value">Java / XSLT developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Webapplicatie voor polisbeheer (My Workplace)</div>
+                <div class="key">Technologies</div>
+                <div class="value">Java, SilverStream J2EE application server, EJB, Eclipse, Ant, XSLT, Servlets, XML,
+                    HTML
+                </div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Ontwikkeling van form validators in Java voor een J2EE web application, ontwikkeling
+                    van XSLT transformation sheets om nieuwe functionaliteit toe te voegen.
+                </div>
+            </div>
+            <div class="opdracht even">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 februari 2004 - 31 maart 2004</div>
+                <div class="key">Branche:</div>
+                <div class="value">Media</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">SMS Loterij</div>
+                <div class="key">Technologies</div>
+                <div class="value">Java, Eclipse, CVS, MySQL, Ant, EJB, JBoss</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Ontwerp en implementatie van ticket issue mechanisme. Exportmodule voor uitbetaling
+                    van geldprijzen.
+                </div>
+            </div>
+            <div class="opdracht odd">
+                <div class="key">Periode:</div>
+                <div class="value"> 1 oktober 2003 - 15 april 2004</div>
+                <div class="key">Branche:</div>
+                <div class="value">Overheid</div>
+                <div class="key">Rol</div>
+                <div class="value">Java Developer</div>
+                <div class="key">Werkgebied</div>
+                <div class="value">Testcentrum voor Verkeerssytemen</div>
+                <div class="key">Technologies</div>
+                <div class="value">Java, XML, XML Schema, DTD, CORBA, Swing, Ant, Junit, Eclipse</div>
+                <div class="key">Bijdrage</div>
+                <div class="value">Ontwikkeling testadapters (TA's) voor het aansluiten van diverse verkeerskundige
+                    systemen op centrale testplatform. Communicatie tussen testplatform en SUT was divers, o.a. TCP/IP
+                    sockets en CORBA. Verder bouw van een Swing UI voor aansturing van TA's.
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <script>
 
@@ -71,25 +739,36 @@
         });
     }
 
-    $(function() {
+    $(function () {
         addClickHandler();
 
-        $('#menu_cv').click(function() {
+        $('#menu_cv').click(function () {
             $('#home').hide();
             $('#cv').show();
             $('#contact').hide();
         })
 
-        $('#menu_contact').click(function() {
+        $('#menu_contact').click(function () {
             $('#home').hide();
             $('#cv').hide();
             $('#contact').show();
         })
-        $('#logo').click(function() {
+        $('#logo').click(function () {
             $('#home').show();
             $('#cv').hide();
             $('#contact').hide();
         })
+
+        function e() {
+            return ['dick', 'dijkrosoft.nl'].join('@');
+        }
+
+        function p() {
+            return ['06', '1645 2852'].join('-');
+        }
+
+        $('span#e').text(e());
+        $('span#p').text(p());
     });
 </script>
 </body>
