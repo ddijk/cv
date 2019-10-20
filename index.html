@@ -4,6 +4,10 @@
 <head>
     <title>Dijkrosoft</title>
     <style type="text/css">
+        #menu {
+            width: 102px;
+            float: left;
+        }
         ul {
             list-style-type: none;
             margin: 0;
@@ -12,6 +16,7 @@
             font-family: "Courier New";
             font-size: 20px;
             background-color: #fff;
+            /*border: 1px solid #f00;*/
         }
 
         li a {
@@ -23,37 +28,68 @@
 
         /* Change the link color on hover */
         li a:hover {
-            background-color: #555;
-            color: white;
+            /*background-color: #555;*/
+            /*color: white;*/
+            font-weight: bold;
         }
 
         .active {
             font-weight: bold;
         }
+
+        #contact, #cv {
+            display: none;
+        }
+
+        #container {
+            /*border: 1px solid #f00;*/
+            font-family: "Courier New";
+            margin-left: 120px;
+        }
     </style>
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
 </head>
 <body>
-<div><img src="logo_dijkrosoft_with_name.gif"></div>
+<div><img id="logo" src="logo_dijkrosoft_with_name.gif"></div>
+<div id="menu">
 <ul>
-    <li><a href="#cv">CV</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li id="menu_cv"><a href="#cv">CV</a></li>
+    <li id="menu_contact"><a href="#contact">Contact</a></li>
 </ul>
+</div>
+<div id="container">
+<div id="home">Home is ldsfaj</div>
+<div id="contact">Contact me at...</div>
+<div id="cv">Read my CV at...</div>
+</div>
 <script>
+
     function addClickHandler() {
-       // .forEach(function(i) { i.removeClass('active')});
         $('li').click(function () {
-            var lis =  $('li');
-            console.log('lis len:'+lis.length);
-            for (var i=0 ; i<lis.length;i++) {
-                console.log(lis[i]);
-                $(lis[i]).removeClass('active');
-            }
+            $('li').removeClass('active');
             $(this).addClass('active');
         });
     }
+
     $(function() {
         addClickHandler();
+
+        $('#menu_cv').click(function() {
+            $('#home').hide();
+            $('#cv').show();
+            $('#contact').hide();
+        })
+
+        $('#menu_contact').click(function() {
+            $('#home').hide();
+            $('#cv').hide();
+            $('#contact').show();
+        })
+        $('#logo').click(function() {
+            $('#home').show();
+            $('#cv').hide();
+            $('#contact').hide();
+        })
     });
 </script>
 </body>
