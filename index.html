@@ -769,6 +769,11 @@
 
         $('span#e').text(e());
         $('span#p').text(p());
+
+        // prevent scrolling on click
+        $('a').click(function(e) {
+            e.preventDefault();
+        });
     });
 </script>
 </body>
