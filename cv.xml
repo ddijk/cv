@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<?xml-stylesheet type="text/xsl" href="uitgebreid.xsl" media="screen"?>
+   Document   : cv.xml
+    Created on : August 29, 2010, 2:51 PM
+    Author     : dick
+    Description: Curriculum  Vitae
+-->
+
+<cv persoon="Dick Dijk">
+	<personalia>
+		<titel>ir.</titel>
+		<geboortedatum>1973-07-08</geboortedatum>
+		<adres>
+			<straat>Zilverschoonlaan 43</straat>
+			<woonplaats>Vleuten</woonplaats>
+		</adres>
+		<emailadres>dick@dijkrosoft.nl</emailadres>
+		<emailadres>dickdijk@xs4all.nl</emailadres>
+		<telefoonnr>06-16452852</telefoonnr>
+		<functie>Developer</functie>
+		<functie>Architect</functie>
+	</personalia>
+	<regulier-onderwijs>
+        <opleiding>
+			<school>Goede Herder school</school>
+			<cursus>Basisschool </cursus>
+			<periode>
+				<van>1977-09-01</van>
+				<tot>1985-07-15</tot>
+			</periode>
+			<plaats>Bodegraven</plaats>
+		</opleiding>
+		<opleiding>
+			<school>Chr. Lyceum Gouda</school>
+			<cursus>Atheneum B </cursus>
+			<periode>
+				<van>1985-09-01</van>
+				<tot>1991-06-15</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>TU Delft</school>
+			<cursus>Luchtvaart- en Ruimtevaarttechniek </cursus>
+			<periode>
+				<van>1991-09-01</van>
+				<tot>1997-06-15</tot>
+			</periode>
+		</opleiding>
+	</regulier-onderwijs>
+	<it-opleidingen>
+		<opleiding>
+			<school>zelfstudie</school>
+			<cursus>Oracle Certified Professional, Upgrade OCP Java 6, 7 &amp; 8 to Java SE 11 Developer</cursus>
+			<periode>
+				<van>2019-04-20</van>
+				<tot>2019-05-29</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>zelfstudie</school>
+			<cursus>Oracle Certified Expert, Java EE 6 JavaServer Faces Developer</cursus>
+			<periode>
+				<van>2016-01-01</van>
+				<tot>2016-03-30</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>zelfstudie</school>
+			<cursus>Oracle Certified Professional, Java SE 8 Programmer</cursus>
+			<periode>
+				<van>2015-08-01</van>
+				<tot>2015-11-01</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>zelfstudie</school>
+			<cursus>Oracle Certified Expert JPA Developer</cursus>
+			<periode>
+				<van>2013-08-01</van>
+				<tot>2013-11-25</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>Inter Access, Frans van Buul</school>
+			<cursus>Groovy</cursus>
+			<periode>
+				<van>2012-05-07</van>
+				<tot>2012-05-21</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>Envator</school>
+			<cursus>JQuery</cursus>
+			<periode>
+				<van>2012-03-01</van>
+				<tot>2012-03-31</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>Zilverline, Robert C. Martin</school>
+			<cursus>Masterclass TDD</cursus>
+			<periode>
+				<van>2010-09-13</van>
+				<tot>2010-09-15</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>zelfstudie</school>
+			<cursus>Sun Certified Developer for Java Webservices</cursus>
+			<periode>
+				<van>2010-01-15</van>
+				<tot>2010-03-16</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>zelfstudie</school>
+			<cursus>Sun Certified Java Programmer, JDK 6</cursus>
+			<periode>
+				<van>2009-03-15</van>
+				<tot>2009-05-07</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>Xebia</school>
+			<cursus>Java Performance Tuning</cursus>
+			<periode>
+				<van>2006-10-31</van>
+				<tot>2006-11-03</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>InfoSupport</school>
+			<cursus>EJB 3.0</cursus>
+			<periode>
+				<van>2006-09-19</van>
+				<tot>2006-10-03</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>Open Universiteit</school>
+			<cursus>KHO Gecertificeerd Softwarearchitect</cursus>
+			<periode>
+				<van>2005-03-29</van>
+				<tot>2006-05-16</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>zelfstudie</school>
+			<cursus>Sun Certified Business Component Developer</cursus>
+			<periode>
+				<van>2004-11-25</van>
+				<tot>2005-01-27</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>zelfstudie</school>
+			<cursus>Sun Certified Web Component Developer</cursus>
+			<periode>
+				<van>2004-03-16</van>
+				<tot>2004-06-08</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>zelfstudie</school>
+			<cursus>Sun Certified Java Developer</cursus>
+			<periode>
+				<van>2004-01-15</van>
+				<tot>2004-06-01</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>zelfstudie</school>
+			<cursus>Sun Certified Java Programmer , JDK 1.4</cursus>
+			<periode>
+				<van>2003-05-12</van>
+				<tot>2003-07-10</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>Sun</school>
+			<cursus>Enterprise Java Beans</cursus>
+			<periode>
+				<van>2002-05-12</van>
+				<tot>2002-05-16</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>Open Universiteit (zelfstudie)</school>
+			<cursus>Visueel Java programmeren</cursus>
+			<periode>
+				<van>2001-08-01</van>
+				<tot>2001-12-01</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>Open Universiteit (zelfstudie)</school>
+			<cursus>Objectgeoriënteerd programmeren met Java</cursus>
+			<periode>
+				<van>2000-12-01</van>
+				<tot>2001-06-01</tot>
+			</periode>
+		</opleiding>
+	<!--
+		Unix programmeren voor gevorderden
+PLOS, cursus projectleiding
+Projectleadership for managers
+Schatten en Begroten
+C- programmeren
+Unix
+C++ programmeren
+Delphi programmeren
+AMBI Werken in Automatiseringsprojecten
+AMBI Benutten van technische infrastructuren
+AMBI Datacommunicatie en netwerken
+-->	
+	</it-opleidingen>
+	<talen>
+		<item>Nederlands</item>
+		<item>Engels</item>
+		<item>Frans</item>
+		<item>Duits</item>
+	</talen>
+	<ervaringen>
+		<methods>
+			<item>Scrum</item>
+			<item>Agile</item>
+			<item>Test Driven Development (TDD)</item>
+			<item>Patterns</item>
+			<item>Object Oriented</item>
+			<item>UML</item>
+			<item>RUP</item>
+		</methods>
+		<tools>
+			<item>IntelliJ</item>
+			<item>Eclipse</item>
+			<item>NetBeans</item>
+			<item>JBuilder</item>
+			<item>NetWeaver Developer Studio</item>
+			<item>Rational Rose</item>
+			<item>CA Wily Introscope</item>
+			<item>NeoLoad</item>
+			<item>JMeter</item>
+			<item>Toad</item>
+			<item>SmartGit</item>
+		</tools>
+		<talen>
+			<item>Java</item>
+			<item>Groovy</item>
+			<item>JavaScript</item>
+			<item>PL/SQL</item>
+			<item>JQuery</item>
+			<item>Bash</item>
+			<item>Awk</item>
+			<item>Sed</item>
+			<item>Perl</item>
+			<item>C</item>
+			<item>C++</item>
+		</talen>
+		<appservers>
+			<item>OpenEJB</item>
+			<item>Glassfish</item>
+			<item>WebLogic</item>
+			<item>WebSphere</item>
+			<item>JBoss</item>
+			<item>Tomcat</item>
+			<item>SAP WAS</item>
+		</appservers>
+		<versiebeheersystemen>
+			<item>Git</item>
+			<item>Subversion</item>
+			<item>CVS</item>
+			<item>SAP NWDI</item>
+			<item>ClearCase</item>			
+		</versiebeheersystemen>
+		<testing>
+			<item>Cucumber</item>	
+			<item>TDD</item>	
+			<item>Mockito</item>	
+			<item>TestNG</item>
+			<item>JUnit</item>
+		</testing>
+		<technologies>
+			<item>HighCharts</item>
+			<item>Selenide</item>
+			<item>Angular</item>			
+			<item>Nexus</item>
+			<item>SoapUI</item>
+			<item>Selenium</item>			
+			<item>Hudson/Jenkins</item>
+			<item>CruiseControl</item>
+			<item>FinalBuilder</item>
+			<item>SAP Netweaver</item>			
+			<item>MKS</item>
+			<item>Ant</item>
+			<item>Maven</item>			
+			<item>SAP CRM</item>
+			<item>SAP ISA</item>
+			<item>SAP Webshops</item>
+			<item>Oracle</item>
+			<item>MySQL</item>
+			<item>MaxDb</item>
+			<item>PostgreSQL</item>
+			<item>SQLServer</item>
+			<item>HBase</item>
+			<item>Solr</item>
+			<item>Hadoop</item>
+			<item>MapReduce</item>
+			<item>Apache Pig</item>
+			<item>CORBA</item>
+			<item>XML</item>
+			<item>XSLT</item>
+			<item>XML Schema (XSD)</item>
+			<item>JEE</item>
+			<item>J2EE</item>
+			<item>JSP</item>
+			<item>EJB</item>
+			<item>Servlets</item>
+			<item>JPA</item>
+			<item>JSF</item>
+			<item>Webservices</item>
+			<item>WSDL</item>
+			<item>XPath</item>
+			<item>SOA</item>
+			<item>LDAP</item>
+			<item>JAAS</item>
+			<item>Swing</item>
+			<item>Struts</item>
+			<item>Google Analytics</item>
+			<item>BugZilla</item>
+			<item>Jira</item>
+			<item>iDEAL</item>
+			<item>SEO</item>
+			<item>JSTD-016</item>
+			<item>Log4j</item>
+			<item>Hibernate</item>
+			<item>Spring MVC</item>
+			<item>Ajax</item>
+			<item>Sonar</item>
+		</technologies>
+		<besturingssystemen>
+			<item>Windows</item>
+			<item>Linux</item>
+			<item>Unix</item>
+			<item>OS X</item>
+			<item>iOS</item>
+		</besturingssystemen>
+	</ervaringen>
+	<opdrachten>
+		<opdracht>
+			<periode>
+				<van>2019-07-08</van>
+				<tot>2019-10-31</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Ortec Finance</bedrijfsnaam>
+				<branche>Finance</branche>
+				<plaats>Rotterdam</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Goal based planning</werkgebied>
+			<bijdrage>Externe API beschikbaar gemaakt in OpenAPI v3 formaat, waardoor client applicaties grotendeels gegenereerd kunnen worden. Verder bijgedragen aan verdere ontwikkeling van de applicatie voor financiële planning</bijdrage>
+			<technologie>Java, Swagger, Enunciate, OpenAPI, WebLogic, Git, Maven, Jenkins, Mockito, REST-Assured</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2018-10-01</van>
+				<tot>2019-06-30</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>StuComm</bedrijfsnaam>
+				<branche>Onderwijs</branche>
+				<plaats>Utrecht</plaats>
+			</klant>
+			<rol>Java Developer/Architect</rol>
+			<werkgebied>Mobiele apps voor studenten</werkgebied>
+			<bijdrage>Ontwerp en bouw van Java backend die de mobiele app ondersteunt. Applicatie heeft een plugin architectuur die gebaseerd is op het standaard Java services mechanisme. De applicatie maakt gebruik van het Java Platform Module System (Java 11) en tevens van Custom Runtime Images.</bijdrage>
+			<technologie>Tomcat, Java, SpringBoot, Git, Maven, Jenkins, Docker, SonarQube, Mockito, REST-Assured</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2016-09-18</van>
+				<tot>2018-09-30</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>BKWI</bedrijfsnaam>
+				<branche>Overheid</branche>
+				<plaats>Utrecht</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Werk en Inkomen</werkgebied>
+			<bijdrage>Implementeren van webapplicatie die ambtenaren ondersteunt bij uitvoeren van taken. Presenteren van voortgang.</bijdrage>
+			<technologie>Tomcat, Java, Git, Maven, Jenkins, GWT, Gerrit, Docker, Kubernetes</technologie>
+		</opdracht>
+
+		<opdracht>
+			<periode>
+				<van>2016-04-01</van>
+				<tot>2016-09-13</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Rabobank</bedrijfsnaam>
+				<branche>Financieel</branche>
+				<plaats>Utrecht</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Rabo Hypotheek Dossier (RHD)</werkgebied>
+			<bijdrage>Implementeren van functionele aanpassingen aan RHD applicatie en maken van SQL scripts t.b.v. rapportage</bijdrage>
+			<technologie>WebSphere, Java, Git, Maven, Flyway, PowerCenter</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2015-10-01</van>
+				<tot>2016-02-01</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Ortec-Finance</bedrijfsnaam>
+				<branche>Financieel</branche>
+				<plaats>Rotterdam</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Financial Planning</werkgebied>
+			<bijdrage>Migratie van JEE applicatie van WebLogic naar WebSphere</bijdrage>
+			<technologie>WebLogic, Java, JPA, CDI, WebSphere, Git, Maven</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2015-04-01</van>
+				<tot>2016-03-31</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Ortec-Finance</bedrijfsnaam>
+				<branche>Financieel</branche>
+				<plaats>Rotterdam</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Financial Planning</werkgebied>
+			<bijdrage>Implementatie van functionele aanpassingen aan een webapplicatie voor Financiële Planning.</bijdrage>
+			<technologie>Scrum, Agile, WebLogic, NetBeans, Struts, SQL, HighCharts, Git, Toad, JQuery, Java, HTML, CSS, REST, SoapUI, Javascript, Jenkins, Maven, Sonar, JUnit, JPA, JSF</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2013-02-01</van>
+				<tot>2015-03-31</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Ortec-Finance</bedrijfsnaam>
+				<branche>Financieel</branche>
+				<plaats>Rotterdam</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Investment Performance Rapportagetool</werkgebied>
+			<bijdrage>Ontwerp en implementatie van functionele aanpassingen aan een Investment Performance rapportagetool.</bijdrage>
+			<technologie>Scrum, Agile, WebLogic, NetBeans, Struts, Quartz, REST, SQL, HighCharts,Toad, JQuery, Java, HTML, CSS, Javascript, FinalBuilder, Sonar, Ant, Maven, Jenkins, JUnit, Angular, JSF, JPA</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2012-07-01</van>
+				<tot>2012-12-31</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>ICTU</bedrijfsnaam>
+				<branche>Overheid</branche>
+				<plaats>Den Haag</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Java Enterprise</werkgebied>
+			<bijdrage>Ontwerp en implementatie van functionele aanpassingen aan JEE webaplicatie.</bijdrage>
+			<technologie>Scrum, Agile, Glassfish, Oracle, NetBeans, JSF, SQL, Mootools, Java, HTML, CSS, Javascript, Nexus, TestNG, JUnit, PL/SQL, EJB, JPA, Maven, Jira</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2012-02-01</van>
+				<tot>2012-06-01</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Ortec-Finance</bedrijfsnaam>
+				<branche>Financieel</branche>
+				<plaats>Rotterdam</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Diverse JEE applicaties</werkgebied>
+			<bijdrage>Ontwerp en implementatie van functionele aanpassingen aan diverse JEE webaplicaties. Upgrade UI met o.a. JQuery, snapshot functionaliteit toegevoegd aan SAAS aaplicatie</bijdrage>
+			<technologie>Scrum, Agile, WebLogic, NetBeans, Struts, SQL, Toad, JQuery, Java, HTML, CSS, Javascript, FinalBuilder</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2011-07-01</van>
+				<tot>2011-11-01</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>MyBrand(DON)</bedrijfsnaam>
+				<branche>Handel</branche>
+				<plaats>Geertruidenberg</plaats>
+			</klant>
+			<rol>Java Developer / SAP Webshop developer</rol>
+			<werkgebied>SAP CRM B2B webshop</werkgebied>
+			<bijdrage>Inrichting NWDI track. Implementatie van functionele aanpassingen aan B2B webshop.</bijdrage>
+			<technologie>SAP NetWeaver, Java, JEE, ANT, Struts, HTML, Javascript, CSS</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2011-04-01</van>
+				<tot>2011-10-01</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>MSD</bedrijfsnaam>
+				<branche>Farmacie</branche>
+				<plaats>Boxmeer</plaats>
+			</klant>
+			<rol>Java Developer / SAP Webshop developer</rol>
+			<werkgebied>SAP CRM B2B webshop</werkgebied>
+			<bijdrage>Upgrade van SAP B2B R3 webshop. Restyling van webshop</bijdrage>
+			<technologie>SAP NetWeaver, Java, ANT, Eclipse, Subversion, Javascript, CSS, HTML</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2011-02-14</van>
+				<tot>2012-02-01</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Technolution</bedrijfsnaam>
+				<branche>Techniek</branche>
+				<plaats>Gouda</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Verkeerskunde</werkgebied>
+			<bijdrage>Ontwerp en implementatie van verkeerskundige applicaties</bijdrage>
+			<technologie>Java, OSGI, MySQL, Hibernate, JMS, Eclipse, JUnit, Swing, JAXB, JAX-WS</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2010-10-14</van>
+				<tot>2011-02-11</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Lukkien</bedrijfsnaam>
+				<branche>Media</branche>
+				<plaats>Ede</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Digital Asset Management Systeem</werkgebied>
+			<bijdrage>Bugfixing en functionele aanpassingen aan webapplicatie.</bijdrage>
+			<technologie>Java, Tomcat, Eclipse, ANT, HTML, CSS</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2010-07-01</van>
+				<tot>2010-10-01</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>MidOceanBrands</bedrijfsnaam>
+				<branche>Handel</branche>
+				<plaats>Barneveld</plaats>
+			</klant>
+			<rol>Java Developer / SAP Webshop developer</rol>
+			<werkgebied>SAP CRM B2B webshop</werkgebied>
+			<bijdrage>Ontwerp en implementatie van functionele aanpassingen aan B2B webshop. Advies/consultancy ter verbetering en uitwerking daarvan. Analyse en uitvoering van performanceverbetering. Implementatie van Google Analytics om meer inzicht te krijgen in gebruikersgedrag. Invoering van JQuery ter bevordering van de user experience</bijdrage>
+			<technologie>SAP NetWeaver, Java, J2EE, ANT, Google Analytics, ImageMagick, JQuery</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2010-03-11</van>
+				<tot>2010-03-30</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>VU Amsterdam</bedrijfsnaam>
+				<branche>Onderwijs</branche>
+				<plaats>Amsterdam</plaats>
+			</klant>
+			<rol>Java Developer / SAP NWDI consultant</rol>
+			<werkgebied>SAP Webshop</werkgebied>
+			<bijdrage>Kennisoverdracht SAP NWDI development, Inrichten Development Track, SAP Webshop development</bijdrage>
+			<technologie>SAP Netweaver, Eclipse, SAP NWDI</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2009-07-01</van>
+				<tot>2010-06-30</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Ortec-Finance</bedrijfsnaam>
+				<branche>Financieel</branche>
+				<plaats>Rotterdam</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Diverse JEE applicaties</werkgebied>
+			<bijdrage>Analyse en verbetering van Logging en Exception Handling in diverse applicaties, Performance analyse. Onderzoek naar voordelen van ESB architectuur. Opzetten ANT buildomgeving voor diverse applicaties. Migratie van JEE applicatie van WebLogic naar WebSphere, waaronder JAAS Authenticatiemodule. Implementatie van Webservices. Internationalisatie van webapplicatie. Functionele aanpassingen aan webapplicatie.</bijdrage>
+			<technologie>WebLogic, NetBeans, WebSphere, Webservices (JAX-WS), JAXB, ANT, ESB, Struts, NeoLoad</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2009-05-15</van>
+				<tot>2009-06-15</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>MidOceanBrands</bedrijfsnaam>
+				<branche>Handel</branche>
+				<plaats>Barneveld</plaats>
+			</klant>
+			<rol>Java Developer / SAP Webshop developer</rol>
+			<werkgebied>SAP CRM B2B webshop</werkgebied>
+			<bijdrage>Ontwerp en implementatie van functionele en Look&amp;Feel aanpassingen aan B2B webshop.</bijdrage>
+			<technologie>SAP NetWeaver, Java, J2EE, ANT</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2008-08-01</van>
+				<tot>2009-12-31</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Sanoma</bedrijfsnaam>
+				<branche>Media</branche>
+				<plaats>Hoofddorp</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>SAP Webshop</werkgebied>
+			<bijdrage>Uitvoeren van upgrade van webshop van ISA 5 naar ISA 6 (Backend upgrade van SAP CRM 5 naar SAP CRM 2007.  Opzetten van een Development Track voor de CRM 2007 versie in het NWDI systeem. Overzetten van al het maatwerk (Java software) van de oude naar de nieuwe versie, oplossen van conflicten tussen beide versies. Daarnaast functioneel beheer van de produktieshop en opleiding van interne developers. Verder maken van een batchapplicatie die de status van openstaande iDEAL orders in het CRM systeem opvraagt en update. Inpassen van diverse SEO scripts t.b.v. marketingdoeleinden. Implementatie van Google Analytics.</bijdrage>
+			<technologie>SAP Netweaver, Eclipse, ANT, SAP CRM, iDEAL</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2008-02-01</van>
+				<tot>2008-06-20</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Ehrbecker Schiefelbusch</bedrijfsnaam>
+				<branche>Handel</branche>
+				<plaats>Breda</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>SAP Webshop</werkgebied>
+			<bijdrage>Installatie van NWDI omgeving op Linux, installatie van development omgeving voor ontwikkelaars, configuratie van de webshop, aanpassen van standaard B2B webshop aan klant-specifieke stijl. Wegwijs maken van eigen medewerkers in het aanpassen van de standaard shop.</bijdrage>
+			<technologie>SAP Netweaver, Eclipse, SAP ECC, SAP NWDI</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2006-07-01</van>
+				<tot>2008-06-30</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Sanoma</bedrijfsnaam>
+				<branche>Media</branche>
+				<plaats>Hoofddorp</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>SAP Webshop</werkgebied>
+			<bijdrage>Ondersteuning bij de upgrade van SAP CRM 4.0 naar 5.0. Analyse van welke nieuwe functionaliteit standaard wordt ondersteund door SAP en welke delen als maatwerk moeten worden ontworpen en geimplementeerd. Inpassen van een door derden gemaakt grafisch design in de standaard SAP Webshop. Aanpassen/ontwikkelen van JSPs, CSS stylesheets, Javascript, Java classes. Review op de nieuwe applicatie architectuur. Analyse van performance problemen, hierbij werd gebruik o.a. gemaakt van CA Wily Introscope en Apache Jmeter. Opleiding van interne mensen op het gebied van Java webshop development. Implementatie van iDeal online betalingssysteem als nieuwe betaalmogelijkheid in de webshop.</bijdrage>
+			<technologie>Java, J2EE, SAP CRM, SAP ISA, NetWeaver, Struts</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2006-04-01</van>
+				<tot>2006-06-01</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Rijkswaterstaat</bedrijfsnaam>
+				<branche>Overheid</branche>
+				<plaats>Delft</plaats>
+			</klant>
+			<rol>Kwaliteitscontrole (QA)</rol>
+			<werkgebied>Software voor verkeerscentrales</werkgebied>
+			<bijdrage>Review van een complexe verkeerskundige applicatie, de review betreft zowel software als documentatie. Beoordeling van een uitgevoerde Corba middleware migratie en het onderzoeken van problemen met de software. Het team bestond verder uit een Corba expert van Prismtech en een IT auditor van BDO.</bijdrage>
+			<technologie>Corba (incl. Notification Service), Java</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2005-08-01</van>
+				<tot>2006-04-30</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Lukkien</bedrijfsnaam>
+				<branche>Media</branche>
+				<plaats>Ede</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Digital Asset Management</werkgebied>
+			<bijdrage>Begeleiding migratie van bestaande applicatie ( Digital Asset Management systeem) naar nieuwere versie van OS en webcontainer. Applicatie landschap bestond uit 2 Sun Solaris fileservers, 6 Tomcat applicatie servers en een Oracle database. Planning van migratie zodanig dat gebruikers hiervan zo min mogelijk hinder ondervonden. Het ging om 6 divisies van Philips die van de applicatie gebruik maken. Daarnaast hield Dick zich bezig met afhandelen van service calls ( 2de lijns ondersteuning) en toewijzen van bugs aan ontwikkelaars om deze op te lossen. Oplossen van bugs.</bijdrage>
+			<technologie>Java, Eclipse, Ant, Struts, JSP, Servlets, Adobe Graphics Server, Linux, Oracle, Tomcat</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2005-04-01</van>
+				<tot>2005-08-12</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Rijkswaterstaat</bedrijfsnaam>
+				<branche>Overheid</branche>
+				<plaats>Utrecht</plaats>
+			</klant>
+			<rol>Java /CORBA ontwikkelaar</rol>
+			<werkgebied>Software voor verkeerscentrales</werkgebied>
+			<bijdrage>Analyse van stabiliteitsproblemen met CORBA middleware (incl. Notification Service). Testen van configuratie aanpassingen. Onderwerpen van applicatie aan duurtest en loadtest. Schrijven van installatiehandleidingen. Ondersteuning bij demonstraties en opleiding van eindgebruikers (operators in Verkeerscentrales).</bijdrage>
+			<technologie>CORBA, Message Oriented Middleware, CORBA (Notification Service), Java</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2004-10-01</van>
+				<tot>2005-03-20</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Provincie Limburg</bedrijfsnaam>
+				<branche>Overheid</branche>
+				<plaats>Maastricht</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Workflow applicaties</werkgebied>
+			<bijdrage>Ontwikkeling van diverse J2EE applicaties, waaronder een webapplicatie voor het aanvragen van cultuurcheques en een electronische agenda. Ontwikkeling van webservice voor een personeelsinformatiesysteem op basis van Lomboz en Apache Axis.</bijdrage>
+			<technologie>Unified Process, Object Oriëntatie, UML, Java, Eclipse, Ant, J2EE (EJB, servlets), Struts, MySQL, Oracle, PostgreSQL, WSDL, CVS,  Redhat Linux, Windows XP, MiddleGen, Lomboz, Apache Axis, OpenLDAP, A-Select SSO.</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2004-06-01</van>
+				<tot>2004-09-30</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Swisslife</bedrijfsnaam>
+				<branche>Financieel</branche>
+				<plaats>Brussel</plaats>
+			</klant>
+			<rol>Java / XSLT developer</rol>
+			<werkgebied>Webapplicatie voor polisbeheer (My Workplace)</werkgebied>
+			<bijdrage>Ontwikkeling van form validators in Java voor een J2EE web application, ontwikkeling van XSLT transformation sheets om nieuwe functionaliteit toe te voegen.</bijdrage>
+			<technologie>Java, SilverStream J2EE application server, EJB, Eclipse, Ant, XSLT, Servlets, XML, HTML</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2004-02-01</van>
+				<tot>2004-03-31</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Smart Technologies</bedrijfsnaam>
+				<branche>Media</branche>
+				<plaats>Hilversum</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>SMS Loterij</werkgebied>
+			<bijdrage>Ontwerp en implementatie van ticket issue mechanisme. Exportmodule voor uitbetaling van geldprijzen.</bijdrage>
+			<technologie>Java, Eclipse, CVS, MySQL, Ant, EJB, JBoss</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2003-10-01</van>
+				<tot>2004-04-15</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Rijkswaterstaat</bedrijfsnaam>
+				<branche>Overheid</branche>
+				<plaats>Delft</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Testcentrum voor Verkeerssytemen</werkgebied>
+			<bijdrage>Ontwikkeling testadapters (TA's) voor het aansluiten van diverse verkeerskundige systemen op centrale testplatform. Communicatie tussen testplatform en SUT was divers, o.a. TCP/IP sockets en CORBA. Verder bouw van een Swing UI voor aansturing van TA's.</bijdrage>
+			<technologie>Java, XML, XML Schema, DTD, CORBA, Swing, Ant, Junit, Eclipse</technologie>
+		</opdracht>
+	</opdrachten>
+</cv>

@@ -20,10 +20,12 @@
                 <version>1.8</version>
                 <executions>
                     <execution>
+                        <id>generate-html</id>
                         <phase>compile</phase>
                         <configuration>
                             <target>
-                                <xslt basedir="." destdir="build" includes="cv.xml" extension=".html" style="src/google-site.xsl"></xslt>
+                                <xslt basedir="." destdir="build" includes="cv.xml" extension=".html"
+                                      style="src/google-site.xsl"></xslt>
 
                             </target>
                         </configuration>
@@ -31,12 +33,32 @@
                             <goal>run</goal>
                         </goals>
                     </execution>
+                    <execution>
+                        <id>generate-pdf</id>
+                        <phase>compile</phase>
+                        <configuration>
+                            <target>
+                                <taskdef name="fop" classname="org.apache.fop.tools.anttasks.Fop" classpathref="maven.plugin.classpath"/>
+                                <fop format="application/pdf"
+                                     xmlfile="cv.xml"
+                                     xsltfile="fo/fo-cv.xsl"
+                                     outfile="build/cv.pdf" />
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
                 </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.xmlgraphics</groupId>
+                        <artifactId>fop</artifactId>
+                        <version>2.3</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
-
-    <dependencies>
-    </dependencies>
 
 </project>

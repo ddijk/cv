@@ -2,13 +2,6 @@
 <project name="CV Dick" default="default" basedir=".">
 	<description>Generate CV</description>
 
-	<!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/fop -->
-	<dependency>
-		<groupId>org.apache.xmlgraphics</groupId>
-		<artifactId>fop</artifactId>
-		<version>2.3</version>
-	</dependency>
-
 	<property name="fop.home" value="/Users/dickdijk/opt/fop-2.3/fop"/>
 
 	<taskdef name="fop"
