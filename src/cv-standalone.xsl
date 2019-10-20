@@ -83,12 +83,11 @@
 }
 
 .even {
-	background-color: #3ff;
+	background-color: #fff;
 }
 
 .container {
 	padding: 3px 8px;
-	background-color: #eee;
 }
 
 .opleiding {
@@ -150,7 +149,7 @@
 			<div class="value">
 				<xsl:apply-templates select="appservers/item"/>
 			</div>
-			<div class="key" id="versiebeheersystemen">Versiebeheersystemen</div>
+			<div class="key" id="versiebeheersystemen">Versiebeheer</div>
 			<div class="value">
 				<xsl:apply-templates select="versiebeheersystemen/item"/>
 			</div>
