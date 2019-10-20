@@ -25,7 +25,7 @@
                         <configuration>
                             <target>
                                 <xslt destdir="${project.build.directory}" basedir="."  includes="cv.xml" extension=".html"
-                                      style="src/google-site.xsl"></xslt>
+                                      style="src/cv-standalone.xsl"></xslt>
 
                             </target>
                         </configuration>
