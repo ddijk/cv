@@ -1,0 +1,10 @@
+build/
+target/
+nbproject/
+.idea/
+*.iml
+.svn/
+
+# ignore omdat het telef. nr en emailadres van klanten bevat
+cv.xml
+cv_en.xml

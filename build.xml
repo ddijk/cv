@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="CV Dick" default="default" basedir=".">
+	<description>Generate CV</description>
+
+	<!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/fop -->
+	<dependency>
+		<groupId>org.apache.xmlgraphics</groupId>
+		<artifactId>fop</artifactId>
+		<version>2.3</version>
+	</dependency>
+
+	<property name="fop.home" value="/Users/dickdijk/opt/fop-2.3/fop"/>
+
+	<taskdef name="fop"
+		 classname="org.apache.fop.tools.anttasks.Fop">
+		<classpath>
+			<fileset dir="${fop.home}/lib">
+				<include name="*.jar"/>
+			</fileset>
+			<fileset dir="${fop.home}/build">
+				<include name="fop.jar"/>
+				<include name="fop-hyph.jar" />
+			</fileset>
+		</classpath>
+	</taskdef>
+
+	<target name="run" description="Schemavalidator (run from Netbeasn)">
+
+		<echo message="running SvSchemaValidator"/>
+		<!--
+		Run eerst "xjc -d src -p nl.dijkrosoft.cv.jaxb cv.xsd" van de commandline
+		-->
+		<echo message="Have you run 'xjc -d src -p nl.dijkrosoft.cv.jaxb cv.xsd'van de commandline"/>
+		<javac  srcdir="src" destdir="build"/>
+		<!-- Run from netbeans with JAXB libs on claaspath-->
+		<java classname="nl.dijkrosoft.cv.CvSchemaValidator" classpath="build"/>
+	</target>
+
+	<target name="generate-html" description="Generates a single HTML file" depends="init">
+		<xslt basedir="." destdir="build" includes="cv.xml" extension=".html" style="src/google-site.xsl"></xslt>
+	</target>
+
+	<target name="generate-pdf" description="Generates CV in PDF formaat" depends="init">
+		<fop format="application/pdf"
+		     xmlfile="cv.xml"
+		     xsltfile="fo/fo-cv.xsl"
+		     outfile="build/cv.pdf" />
+	</target>
+
+	<target name="generate-rtf" description="Generates CV in RTF formaat" depends="init">
+		<fop format="application/rtf"
+		     xmlfile="cv.xml"
+		     xsltfile="fo/fo-cv.xsl"
+		     outfile="build/cv.rtf" />
+	</target>
+
+	<target name="generate-rtf-ENGELS" description="Generates CV in RTF formaat, in het Engels" depends="init">
+		<fop format="application/rtf"
+		     xmlfile="cv_en.xml"
+		     xsltfile="fo/fo-cv_en.xsl"
+		     outfile="build/cv_en.rtf" />
+	</target>
+	
+	<target name="test">
+		<echo message="fop.home=${ant.file}"/>
+	</target>
+	
+	<target name="clean">
+		<delete dir="build"/>
+	</target>
+	
+	<target name="init">
+		<mkdir dir="build"/>
+	</target>
+
+</project>

@@ -1,0 +1,116 @@
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="cv" type="CvType"/>
+	<xsd:element name="comment" type="xsd:string"/>
+
+	<xsd:complexType name="CvType">
+		<!--
+		-->
+		<xsd:sequence>
+			<xsd:element name="personalia" type="PersonaliaType"/>
+			<xsd:element name="regulier-onderwijs" type="OpleidingenType"/>
+			<xsd:element name="it-opleidingen" type="OpleidingenType"/>
+			<xsd:element name="talen" type="ItemType"/>
+			<xsd:element name="ervaringen" type="ErvaringenType"/>
+			<xsd:element name="opdrachten" type="OpdrachtenType"/>
+		</xsd:sequence>
+		<xsd:attribute name="persoon" type="xsd:string"/>
+	</xsd:complexType>
+
+	<xsd:complexType name="ItemType">
+		<xsd:sequence>
+			<xsd:element name="item" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="ErvaringenType">
+		<xsd:sequence>
+			<xsd:element name="methods" type="ItemType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="tools" type="ItemType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="talen" type="ItemType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="appservers" type="ItemType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="versiebeheersystemen" type="ItemType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="testing" type="ItemType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="technologies" type="ItemType" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="besturingssystemen" type="ItemType" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="PersonaliaType">
+		<xsd:sequence>
+			<xsd:element name="titel" type="xsd:string"/>
+			<xsd:element name="geboortedatum" type="xsd:date"/>
+			<xsd:element name="adres" type="AdresType"/>
+			<xsd:element name="emailadres" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element name="telefoonnr" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element name="functie" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="AdresType">
+		<xsd:sequence>
+			<xsd:element name="straat" type="xsd:string"/>
+			<xsd:element name="woonplaats" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpleidingenType">
+		<xsd:sequence>
+			<xsd:element name="opleiding" type="OpleidingType" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpdrachtenType">
+		<xsd:sequence>
+			<xsd:element name="opdracht" type="OpdrachtType" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="ContactPersonenType">
+		<xsd:sequence>
+			<xsd:element name="contactpersoon" type="ContactPersoonType" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="ContactPersoonType">
+		<xsd:sequence>
+			<xsd:element name="naam" type="xsd:string"/>
+			<xsd:element name="emailadres" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="telefoonnr" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpdrachtType">
+		<xsd:sequence>
+			<xsd:element name="periode" type="PeriodeType"/>
+			<xsd:element name="klant" type="KlantType"/>
+			<xsd:element name="rol" type="xsd:string"/>
+			<xsd:element name="werkgebied" type="xsd:string"/>
+			<xsd:element name="bijdrage" type="xsd:string"/>
+			<xsd:element name="technologie" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="KlantType">
+		<xsd:sequence>
+			<xsd:element name="bedrijfsnaam" type="xsd:string"/>
+			<xsd:element name="branche" type="xsd:string"/>
+			<xsd:element name="plaats" type="xsd:string"/>
+			<xsd:element name="contactpersonen" type="ContactPersonenType"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="PeriodeType">
+		<xsd:sequence>
+			<xsd:element name="van" type="xsd:date"/>
+			<xsd:element name="tot" type="xsd:date"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpleidingType">
+		<xsd:sequence>
+			<xsd:element name="school" type="xsd:string"/>
+			<xsd:element name="cursus" type="xsd:string"/>
+			<xsd:element name="periode" type="PeriodeType"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,40 @@
+/* 
+    Document   : cv
+    Created on : Aug 29, 2010, 10:05:10 PM
+    Author     : dick
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+div {
+	border: 1px solid #0f0;
+}
+
+#personalia {
+	background-color: #eee;
+}
+
+#titel {
+	font: 24pt Arial;
+	text-align:	center;
+}
+
+#voorblad-gegevens {
+	font-color: #f00;
+	font-size: 12pt;
+	font-family: "Courier New";
+}
+
+.kop2 {
+	font: 16pt Arial;
+	font-color: #efefef;
+	margin: 20px 5px ;
+}
+
+
+
