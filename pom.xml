@@ -49,6 +49,22 @@
                             <goal>run</goal>
                         </goals>
                     </execution>
+                    <execution>
+                        <id>generate-rtf</id>
+                        <phase>compile</phase>
+                        <configuration>
+                            <target>
+                                <taskdef name="fop" classname="org.apache.fop.tools.anttasks.Fop" classpathref="maven.plugin.classpath"/>
+                                <fop format="application/rtf"
+                                     xmlfile="cv.xml"
+                                     xsltfile="fo/fo-cv.xsl"
+                                     outfile="${project.build.directory}/cv.rtf" />
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
                 </executions>
                 <dependencies>
                     <dependency>
