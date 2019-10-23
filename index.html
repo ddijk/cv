@@ -741,8 +741,8 @@
 <script>
 
     function addClickHandler() {
-        $('li').click(function () {
-            $('li').removeClass('active');
+        $('#menu ul li').click(function () {
+            $('#menu ul li').removeClass('active');
             $(this).addClass('active');
         });
     }
@@ -779,7 +779,7 @@
         $('span#p').text(p());
 
         // prevent scrolling on click
-        $('a').click(function(e) {
+        $('#menu ul li a').click(function(e) {
             e.preventDefault();
         });
     });
