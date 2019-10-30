@@ -360,7 +360,7 @@ AMBI Datacommunicatie en netwerken
 			<rol>Java Developer</rol>
 			<werkgebied>Goal based planning</werkgebied>
 			<bijdrage>Externe API beschikbaar gemaakt in OpenAPI v3 formaat, waardoor client applicaties grotendeels gegenereerd kunnen worden. Verder bijgedragen aan verdere ontwikkeling van de applicatie voor financiële planning</bijdrage>
-			<technologie>Java, Swagger, Enunciate, OpenAPI, WebLogic, Git, Maven, Jenkins, Mockito, REST-Assured</technologie>
+			<technologie>Java, Swagger, Angular, Enunciate, OpenAPI, WebLogic, Git, Maven, Jenkins, Mockito, REST-Assured</technologie>
 		</opdracht>
 		<opdracht>
 			<periode>
@@ -406,7 +406,7 @@ AMBI Datacommunicatie en netwerken
 			<rol>Java Developer</rol>
 			<werkgebied>Rabo Hypotheek Dossier (RHD)</werkgebied>
 			<bijdrage>Implementeren van functionele aanpassingen aan RHD applicatie en maken van SQL scripts t.b.v. rapportage</bijdrage>
-			<technologie>WebSphere, Java, Git, Maven, Flyway, PowerCenter</technologie>
+			<technologie>WebSphere, Java, Angular, Git, Maven, Flyway, PowerCenter</technologie>
 		</opdracht>
 		<opdracht>
 			<periode>
