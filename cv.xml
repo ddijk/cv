@@ -749,7 +749,7 @@ AMBI Datacommunicatie en netwerken
 				<plaats>Delft</plaats>
 			</klant>
 			<rol>Java Developer</rol>
-			<werkgebied>Testcentrum voor Verkeerssytemen</werkgebied>
+			<werkgebied>Testcentrum voor Verkeerssystemen</werkgebied>
 			<bijdrage>Ontwikkeling testadapters (TA's) voor het aansluiten van diverse verkeerskundige systemen op centrale testplatform. Communicatie tussen testplatform en SUT was divers, o.a. TCP/IP sockets en CORBA. Verder bouw van een Swing UI voor aansturing van TA's.</bijdrage>
 			<technologie>Java, XML, XML Schema, DTD, CORBA, Swing, Ant, Junit, Eclipse</technologie>
 		</opdracht>
