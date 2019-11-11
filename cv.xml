@@ -10,6 +10,7 @@
 <cv persoon="Dick Dijk">
 	<personalia>
 		<titel>ir.</titel>
+        <!--
 		<geboortedatum>1973-07-08</geboortedatum>
 		<adres>
 			<straat>Zilverschoonlaan 43</straat>
@@ -18,6 +19,7 @@
 		<emailadres>dick@dijkrosoft.nl</emailadres>
 		<emailadres>dickdijk@xs4all.nl</emailadres>
 		<telefoonnr>06-16452852</telefoonnr>
+		-->
 		<functie>Developer</functie>
 		<functie>Architect</functie>
 	</personalia>
@@ -55,6 +57,14 @@
 			<periode>
 				<van>2019-04-20</van>
 				<tot>2019-05-29</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>scrum.org</school>
+			<cursus>Professional Scrum Developer</cursus>
+			<periode>
+				<van>2017-04-04</van>
+				<tot>2017-04-14</tot>
 			</periode>
 		</opleiding>
 		<opleiding>
