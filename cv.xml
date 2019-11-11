@@ -82,6 +82,15 @@
 			</periode>
 		</opleiding>
 		<opleiding>
+			<school>zelfstudie</school>
+			<cursus>Oracle Certified Master, Java EE 5 Enterprise Architect</cursus>
+			<periode>
+				<van>2009-05-01</van>
+				<tot>2009-11-25</tot>
+			</periode>
+		</opleiding>
+
+		<opleiding>
 			<school>Inter Access, Frans van Buul</school>
 			<cursus>Groovy</cursus>
 			<periode>
