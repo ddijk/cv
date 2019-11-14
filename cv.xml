@@ -296,6 +296,7 @@ AMBI Datacommunicatie en netwerken
 			<item>Mockito</item>	
 			<item>TestNG</item>
 			<item>JUnit</item>
+			<item>Spock</item>
 		</testing>
 		<technologies>
 			<item>HighCharts</item>
