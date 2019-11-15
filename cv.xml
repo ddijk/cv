@@ -230,7 +230,7 @@ Delphi programmeren
 AMBI Werken in Automatiseringsprojecten
 AMBI Benutten van technische infrastructuren
 AMBI Datacommunicatie en netwerken
--->	
+-->
 	</it-opleidingen>
 	<talen>
 		<item>Nederlands</item>
@@ -288,12 +288,12 @@ AMBI Datacommunicatie en netwerken
 			<item>Subversion</item>
 			<item>CVS</item>
 			<item>SAP NWDI</item>
-			<item>ClearCase</item>			
+			<item>ClearCase</item>
 		</versiebeheersystemen>
 		<testing>
-			<item>Cucumber</item>	
-			<item>TDD</item>	
-			<item>Mockito</item>	
+			<item>Cucumber</item>
+			<item>TDD</item>
+			<item>Mockito</item>
 			<item>TestNG</item>
 			<item>JUnit</item>
 			<item>Spock</item>
@@ -301,17 +301,17 @@ AMBI Datacommunicatie en netwerken
 		<technologies>
 			<item>HighCharts</item>
 			<item>Selenide</item>
-			<item>Angular</item>			
+			<item>Angular</item>
 			<item>Nexus</item>
 			<item>SoapUI</item>
-			<item>Selenium</item>			
+			<item>Selenium</item>
 			<item>Hudson/Jenkins</item>
 			<item>CruiseControl</item>
 			<item>FinalBuilder</item>
-			<item>SAP Netweaver</item>			
+			<item>SAP Netweaver</item>
 			<item>MKS</item>
 			<item>Ant</item>
-			<item>Maven</item>			
+			<item>Maven</item>
 			<item>SAP CRM</item>
 			<item>SAP ISA</item>
 			<item>SAP Webshops</item>
@@ -320,11 +320,6 @@ AMBI Datacommunicatie en netwerken
 			<item>MaxDb</item>
 			<item>PostgreSQL</item>
 			<item>SQLServer</item>
-			<item>HBase</item>
-			<item>Solr</item>
-			<item>Hadoop</item>
-			<item>MapReduce</item>
-			<item>Apache Pig</item>
 			<item>CORBA</item>
 			<item>XML</item>
 			<item>XSLT</item>
@@ -352,8 +347,8 @@ AMBI Datacommunicatie en netwerken
 			<item>JSTD-016</item>
 			<item>Log4j</item>
 			<item>Hibernate</item>
+			<item>CQRS</item>
 			<item>Spring MVC</item>
-			<item>Ajax</item>
 			<item>Sonar</item>
 		</technologies>
 		<besturingssystemen>
@@ -468,8 +463,8 @@ AMBI Datacommunicatie en netwerken
 			</klant>
 			<rol>Java Developer</rol>
 			<werkgebied>Investment Performance Rapportagetool</werkgebied>
-			<bijdrage>Ontwerp en implementatie van functionele aanpassingen aan een Investment Performance rapportagetool.</bijdrage>
-			<technologie>Scrum, Agile, WebLogic, NetBeans, Struts, Quartz, REST, SQL, HighCharts,Toad, JQuery, Java, HTML, CSS, Javascript, FinalBuilder, Sonar, Ant, Maven, Jenkins, JUnit, Angular, JSF, JPA</technologie>
+			<bijdrage>Ontwerp en implementatie van functionele aanpassingen aan een Investment Performance rapportagetool. Deze applicatie heeft een CQRS architectuur, waarbij de beleggingsresultaten worden weggeschreven naar een database schema, vervolgens wordt deze data gerepliceerd naar een ander schema. De rapportage applicatie leest de data uit dit tweede schema.</bijdrage>
+			<technologie>Scrum, Agile, WebLogic, NetBeans, Struts, Quartz, CQRS, REST, SQL, HighCharts,Toad, JQuery, Java, HTML, CSS, Javascript, FinalBuilder, Sonar, Ant, Maven, Jenkins, JUnit, Angular, JSF, JPA</technologie>
 		</opdracht>
 		<opdracht>
 			<periode>
