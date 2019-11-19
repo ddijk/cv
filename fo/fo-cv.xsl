@@ -30,7 +30,7 @@
             space-after.optimum="10pt"
             text-align="start"
             padding-top="3pt" margin-bottom="35px">
-				
+
 				Curriculum Vitae van
 			<xsl:value-of select="@persoon"/>
 		</fo:block>
@@ -239,7 +239,7 @@
 			<xsl:when test="position() != last()">, </xsl:when>
 		</xsl:choose>
 	</xsl:template>
-	
+
 	<xsl:template match="opdrachten">
 		<xsl:apply-templates select="opdracht"/>
 	</xsl:template>
@@ -280,6 +280,17 @@
 						<fo:block>
 							<xsl:text></xsl:text>
 							<xsl:value-of select="klant/branche"/>
+						</fo:block>
+					</fo:table-cell>
+				</fo:table-row>
+        <fo:table-row>
+					<fo:table-cell >
+						<fo:block>Klant:</fo:block>
+					</fo:table-cell>
+					<fo:table-cell >
+						<fo:block>
+							<xsl:text></xsl:text>
+							<xsl:value-of select="klant/bedrijfsnaam"/>
 						</fo:block>
 					</fo:table-cell>
 				</fo:table-row>
@@ -407,7 +418,7 @@
 							</fo:block>
 						</fo:table-cell>
 					</fo:table-row>
-					<fo:table-row>
+					<!-- <fo:table-row>
 						<fo:table-cell >
 							<fo:block>
 								<xsl:text>Geboortedatum:</xsl:text>
@@ -434,11 +445,11 @@
 								<xsl:value-of select="adres/woonplaats"/>
 							</fo:block>
 						</fo:table-cell>
-					</fo:table-row>
+					</fo:table-row> -->
 				</fo:table-body>
 			</fo:table>
     <!-- table end -->
-					
+
 		</fo:block>
 	</xsl:template>
 
