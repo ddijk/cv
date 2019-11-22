@@ -83,7 +83,7 @@
 			<xsl:apply-templates select="it-opleidingen"/>
 		</fo:block>
 
-		<fo:block font-size="16pt"
+		<!-- <fo:block font-size="16pt"
             font-family="sans-serif"
             line-height="20pt"
             space-before.optimum="10pt"
@@ -100,7 +100,7 @@
             text-align="start"
             padding-top="3pt" margin="0">
 			<xsl:apply-templates select="talen"/>
-		</fo:block>
+		</fo:block> -->
 
 		<fo:block font-size="16pt"
             font-family="sans-serif"
@@ -283,7 +283,7 @@
 						</fo:block>
 					</fo:table-cell>
 				</fo:table-row>
-        <fo:table-row>
+        <!-- <fo:table-row>
 					<fo:table-cell >
 						<fo:block>Klant:</fo:block>
 					</fo:table-cell>
@@ -293,7 +293,7 @@
 							<xsl:value-of select="klant/bedrijfsnaam"/>
 						</fo:block>
 					</fo:table-cell>
-				</fo:table-row>
+				</fo:table-row> -->
 				<fo:table-row>
 					<fo:table-cell >
 						<fo:block>Rol:</fo:block>
