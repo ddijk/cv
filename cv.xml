@@ -51,6 +51,14 @@
 	<it-opleidingen>
 		<opleiding>
 			<school>zelfstudie</school>
+			<cursus>ISTQB® Certified Tester - Foundation Level</cursus>
+			<periode>
+				<van>2019-11-15</van>
+				<tot>2019-11-22</tot>
+			</periode>
+		</opleiding>
+		<opleiding>
+			<school>zelfstudie</school>
 			<cursus>Oracle Certified Professional, Upgrade OCP Java 6, 7 &amp; 8 to Java SE 11 Developer</cursus>
 			<periode>
 				<van>2019-04-20</van>
@@ -350,6 +358,8 @@ AMBI Datacommunicatie en netwerken
 			<item>CQRS</item>
 			<item>Spring MVC</item>
 			<item>Sonar</item>
+			<item>Docker</item>
+			<item>Kubernetes</item>
 		</technologies>
 		<besturingssystemen>
 			<item>Windows</item>
