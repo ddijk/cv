@@ -8,3 +8,5 @@ nbproject/
 # ignore omdat het telef. nr en emailadres van klanten bevat
 cv_met_contactpersonen.xml
 cv_en.xml
+
+.DS_Store

@@ -383,8 +383,23 @@ AMBI Datacommunicatie en netwerken
 	<opdrachten>
 		<opdracht>
 			<periode>
-				<van>2019-07-08</van>
-				<tot>2019-10-31</tot>
+				<van>2022-03-01</van>
+				<tot>2023-06-22</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Ready Education</bedrijfsnaam>
+				<branche>Onderwijs</branche>
+				<plaats>Utrecht</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>App voor studenten om met onderwijsinstelling te communiceren</werkgebied>
+			<bijdrage></bijdrage>
+			<technologie>Java, AWS, Javascript, SpringBoot, Python, Elastic Search, Git, Maven</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2020-03-15</van>
+				<tot>2022-02-28</tot>
 			</periode>
 			<klant>
 				<bedrijfsnaam>Nationale Politie</bedrijfsnaam>
@@ -407,7 +422,7 @@ AMBI Datacommunicatie en netwerken
 				<plaats>Assen</plaats>
 			</klant>
 			<rol>Java Developer</rol>
-			<werkgebied>Case Management</werkgebied>
+			<werkgebied>Juridisch</werkgebied>
 			<bijdrage>Doorontwikkeling van Advobot, een applicatie voor de ondersteuning van letselschadezaken en vergaande automatisering van taken</bijdrage>
 			<technologie>Java, React, SpringBoot, Jest, JUnit, Docker, PostgreSQL, IntelliJ, JPA, Mockito</technologie>
 		</opdracht>
