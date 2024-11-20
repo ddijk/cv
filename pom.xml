@@ -41,7 +41,7 @@
                                 <taskdef name="fop" classname="org.apache.fop.tools.anttasks.Fop" classpathref="maven.plugin.classpath"/>
                                 <fop format="application/pdf"
                                      xmlfile="cv.xml"
-                                     xsltfile="fo/fo-cv.xsl"
+                                     xsltfile="fo/fo-cv_en.xsl"
                                      outfile="${project.build.directory}/cv.pdf" />
                             </target>
                         </configuration>

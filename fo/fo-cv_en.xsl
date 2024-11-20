@@ -179,11 +179,51 @@
 				</fo:table-row>
 				<fo:table-row>
 					<fo:table-cell >
+						<fo:block>Frameworks</fo:block>
+					</fo:table-cell>
+					<fo:table-cell >
+						<fo:block>
+							<xsl:apply-templates select="frameworks/item"/>
+						</fo:block>
+					</fo:table-cell>
+				</fo:table-row>
+				<fo:table-row>
+					<fo:table-cell >
+						<fo:block>Cloud</fo:block>
+					</fo:table-cell>
+					<fo:table-cell >
+						<fo:block>
+							<xsl:apply-templates select="cloud/item"/>
+						</fo:block>
+					</fo:table-cell>
+				</fo:table-row>
+				<fo:table-row>
+					<fo:table-cell >
 						<fo:block>Appservers:</fo:block>
 					</fo:table-cell>
 					<fo:table-cell >
 						<fo:block>
 							<xsl:apply-templates select="appservers/item"/>
+						</fo:block>
+					</fo:table-cell>
+				</fo:table-row>
+				<fo:table-row>
+					<fo:table-cell >
+						<fo:block>Versiebeheersystemen:</fo:block>
+					</fo:table-cell>
+					<fo:table-cell >
+						<fo:block>
+							<xsl:apply-templates select="versiebeheersystemen/item"/>
+						</fo:block>
+					</fo:table-cell>
+				</fo:table-row>
+				<fo:table-row>
+					<fo:table-cell >
+						<fo:block>Testing</fo:block>
+					</fo:table-cell>
+					<fo:table-cell >
+						<fo:block>
+							<xsl:apply-templates select="testing/item"/>
 						</fo:block>
 					</fo:table-cell>
 				</fo:table-row>

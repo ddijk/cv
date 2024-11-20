@@ -271,8 +271,9 @@ AMBI Datacommunicatie en netwerken
 		</tools>
 		<talen>
 			<item>Java</item>
-			<item>Groovy</item>
+			<item>Python</item>
 			<item>JavaScript</item>
+			<item>Groovy</item>
 			<item>PL/SQL</item>
 			<item>JQuery</item>
 			<item>Bash</item>
@@ -282,6 +283,16 @@ AMBI Datacommunicatie en netwerken
 			<item>C</item>
 			<item>C++</item>
 		</talen>
+		<frameworks>
+			<item>SpringBoot</item>
+			<item>React</item>
+			<item>Angular</item>
+			<item>GWT</item>
+		</frameworks>
+		<cloud>
+			<item>AWS</item>
+			<item>Google</item>
+		</cloud>
 		<appservers>
 			<item>OpenEJB</item>
 			<item>Glassfish</item>
@@ -299,11 +310,11 @@ AMBI Datacommunicatie en netwerken
 			<item>ClearCase</item>
 		</versiebeheersystemen>
 		<testing>
-			<item>Cucumber</item>
-			<item>TDD</item>
-			<item>Mockito</item>
-			<item>TestNG</item>
 			<item>JUnit</item>
+			<item>Jest</item>
+			<item>Mockito</item>
+			<item>Cucumber</item>
+			<item>TestNG</item>
 			<item>Spock</item>
 		</testing>
 		<technologies>
@@ -370,6 +381,36 @@ AMBI Datacommunicatie en netwerken
 		</besturingssystemen>
 	</ervaringen>
 	<opdrachten>
+		<opdracht>
+			<periode>
+				<van>2019-07-08</van>
+				<tot>2019-10-31</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Nationale Politie</bedrijfsnaam>
+				<branche>Overheid</branche>
+				<plaats>Odijk</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Ondersteuning van agent op straat met app (RAPP)</werkgebied>
+			<bijdrage></bijdrage>
+			<technologie>Java, Swagger, Angular, Enunciate, OpenAPI, WebLogic, Git, Maven, Jenkins, Mockito, REST-Assured</technologie>
+		</opdracht>
+		<opdracht>
+			<periode>
+				<van>2019-11-01</van>
+				<tot>date</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Columbus Letselschade</bedrijfsnaam>
+				<branche>Legal</branche>
+				<plaats>Assen</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Case Management</werkgebied>
+			<bijdrage>Doorontwikkeling van Advobot, een applicatie voor de ondersteuning van letselschadezaken en vergaande automatisering van taken</bijdrage>
+			<technologie>Java, React, SpringBoot, Jest, JUnit, Docker, PostgreSQL, IntelliJ, JPA, Mockito</technologie>
+		</opdracht>
 		<opdracht>
 			<periode>
 				<van>2019-07-08</van>

@@ -145,6 +145,10 @@
 			<div class="value">
 				<xsl:apply-templates select="talen/item"/>
 			</div>
+			<div class="key" id="frameworks">Frameworks</div>
+			<div class="value">
+				<xsl:apply-templates select="frameworks/item"/>
+			</div>
 			<div class="key" id="appservers">Appservers</div>
 			<div class="value">
 				<xsl:apply-templates select="appservers/item"/>
