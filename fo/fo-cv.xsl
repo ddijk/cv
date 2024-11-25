@@ -306,14 +306,6 @@
                 </fo:table-row>
                 <fo:table-row>
                     <fo:table-cell>
-                        <fo:block>Aantal uren per week:</fo:block>
-                    </fo:table-cell>
-                    <fo:table-cell>
-                        <fo:block>32</fo:block>
-                    </fo:table-cell>
-                </fo:table-row>
-                <fo:table-row>
-                    <fo:table-cell>
                         <fo:block>Werkgebied:</fo:block>
                     </fo:table-cell>
                     <fo:table-cell>

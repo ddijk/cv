@@ -393,8 +393,8 @@ AMBI Datacommunicatie en netwerken
 			</klant>
 			<rol>Java Developer</rol>
 			<werkgebied>App voor studenten om met onderwijsinstelling te communiceren</werkgebied>
-			<bijdrage></bijdrage>
-			<technologie>Java, AWS, Javascript, SpringBoot, Python, Elastic Search, Git, Maven</technologie>
+			<bijdrage>Analyse productieproblemen van Python applicatie en aanbrengen van verbeteringen in deze applicatie. Opzetten van nieuwe applicatie in Java en SpringBoot voor het ontsluiten van bestaande backendsystemen t.b.v nieuwe frontend applicaties die verworven waren door overnames</bijdrage>
+			<technologie>Java, Python, AWS, Javascript, SpringBoot, Python, Elastic Search, Git, Maven</technologie>
 		</opdracht>
 		<opdracht>
 			<periode>
@@ -408,13 +408,13 @@ AMBI Datacommunicatie en netwerken
 			</klant>
 			<rol>Java Developer</rol>
 			<werkgebied>Ondersteuning van agent op straat met app (RAPP)</werkgebied>
-			<bijdrage></bijdrage>
-			<technologie>Java, Swagger, Angular, Enunciate, OpenAPI, WebLogic, Git, Maven, Jenkins, Mockito, REST-Assured</technologie>
+			<bijdrage>Ontwikkeling backend voor ondersteuning van afhandeling winkeldiefstallen, in Java. Ontwikkeling Python scripts voor automatisering build en deployments.</bijdrage>
+			<technologie>Java, Python, Swagger, Angular, Enunciate, OpenAPI, WebLogic, Git, Maven, Jenkins, Mockito, REST-Assured</technologie>
 		</opdracht>
 		<opdracht>
 			<periode>
 				<van>2019-11-01</van>
-				<tot>date</tot>
+				<tot>nu</tot>
 			</periode>
 			<klant>
 				<bedrijfsnaam>Columbus Letselschade</bedrijfsnaam>
@@ -422,7 +422,7 @@ AMBI Datacommunicatie en netwerken
 				<plaats>Assen</plaats>
 			</klant>
 			<rol>Java Developer</rol>
-			<werkgebied>Juridisch</werkgebied>
+			<werkgebied>Ondersteunen van werkprocessen in letselschadeafhandeling</werkgebied>
 			<bijdrage>Doorontwikkeling van Advobot, een applicatie voor de ondersteuning van letselschadezaken en vergaande automatisering van taken</bijdrage>
 			<technologie>Java, React, SpringBoot, Jest, JUnit, Docker, PostgreSQL, IntelliJ, JPA, Mockito</technologie>
 		</opdracht>
