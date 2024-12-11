@@ -381,6 +381,21 @@ AMBI Datacommunicatie en netwerken
 		</besturingssystemen>
 	</ervaringen>
 	<opdrachten>
+			<opdracht>
+			<periode>
+				<van>2023-08-15</van>
+				<tot>nu</tot>
+			</periode>
+			<klant>
+				<bedrijfsnaam>Columbus Letselschade</bedrijfsnaam>
+				<branche>Legal</branche>
+				<plaats>Assen</plaats>
+			</klant>
+			<rol>Java Developer</rol>
+			<werkgebied>Ondersteunen van werkprocessen in letselschadeafhandeling</werkgebied>
+			<bijdrage>Doorontwikkeling van Advobot, een applicatie voor de ondersteuning van letselschadezaken en vergaande automatisering van taken</bijdrage>
+			<technologie>Java 23, React, SpringBoot, Jest, JUnit, Docker, PostgreSQL, IntelliJ, JPA, Mockito</technologie>
+		</opdracht>
 		<opdracht>
 			<periode>
 				<van>2022-03-01</van>
@@ -414,14 +429,14 @@ AMBI Datacommunicatie en netwerken
 		<opdracht>
 			<periode>
 				<van>2019-11-01</van>
-				<tot>nu</tot>
+				<tot>2023-06-24</tot>
 			</periode>
 			<klant>
 				<bedrijfsnaam>Columbus Letselschade</bedrijfsnaam>
 				<branche>Legal</branche>
 				<plaats>Assen</plaats>
 			</klant>
-			<rol>Java Developer</rol>
+			<rol>Java Developer (1 dag per week)</rol>
 			<werkgebied>Ondersteunen van werkprocessen in letselschadeafhandeling</werkgebied>
 			<bijdrage>Doorontwikkeling van Advobot, een applicatie voor de ondersteuning van letselschadezaken en vergaande automatisering van taken</bijdrage>
 			<technologie>Java, React, SpringBoot, Jest, JUnit, Docker, PostgreSQL, IntelliJ, JPA, Mockito</technologie>
