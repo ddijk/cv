@@ -250,142 +250,142 @@ AMBI Datacommunicatie en netwerken
 	</it-opleidingen>
 	<talen>
 		<item>Nederlands</item>
-		<item>Engels</item>
-		<item>Frans</item>
-		<item>Duits</item>
+		<item> Engels</item>
+		<item> Frans</item>
+		<item> Duits</item>
 	</talen>
 	<ervaringen>
 		<methods>
 			<item>Scrum</item>
-			<item>Agile</item>
-			<item>Test Driven Development (TDD)</item>
-			<item>Patterns</item>
-			<item>Object Oriented</item>
-			<item>UML</item>
-			<item>RUP</item>
+			<item> Agile</item>
+			<item> Test Driven Development (TDD)</item>
+			<item> Patterns</item>
+			<item> Object Oriented</item>
+			<item> UML</item>
+			<item> RUP</item>
 		</methods>
 		<tools>
 			<item>IntelliJ</item>
-			<item>Eclipse</item>
-			<item>NetBeans</item>
-			<item>JBuilder</item>
-			<item>NetWeaver Developer Studio</item>
-			<item>Rational Rose</item>
-			<item>CA Wily Introscope</item>
-			<item>NeoLoad</item>
-			<item>JMeter</item>
-			<item>Toad</item>
-			<item>SmartGit</item>
+			<item> Eclipse</item>
+			<item> NetBeans</item>
+			<item> JBuilder</item>
+			<item> NetWeaver Developer Studio</item>
+			<item> Rational Rose</item>
+			<item> CA Wily Introscope</item>
+			<item> NeoLoad</item>
+			<item> JMeter</item>
+			<item> Toad</item>
+			<item> SmartGit</item>
 		</tools>
 		<talen>
 			<item>Java</item>
-			<item>Python</item>
-			<item>JavaScript</item>
-			<item>Groovy</item>
-			<item>PL/SQL</item>
-			<item>JQuery</item>
-			<item>Bash</item>
-			<item>Awk</item>
-			<item>Sed</item>
-			<item>Perl</item>
-			<item>C</item>
-			<item>C++</item>
+			<item> Python</item>
+			<item> JavaScript</item>
+			<item> Groovy</item>
+			<item> PL/SQL</item>
+			<item> JQuery</item>
+			<item> Bash</item>
+			<item> Awk</item>
+			<item> Sed</item>
+			<item> Perl</item>
+			<item> C</item>
+			<item> C++</item>
 		</talen>
 		<frameworks>
 			<item>SpringBoot</item>
-			<item>React</item>
-			<item>Angular</item>
-			<item>GWT</item>
+			<item> React</item>
+			<item> Angular</item>
+			<item> GWT</item>
 		</frameworks>
 		<cloud>
 			<item>AWS</item>
-			<item>Google</item>
+			<item> Google</item>
 		</cloud>
 		<appservers>
 			<item>OpenEJB</item>
-			<item>Glassfish</item>
-			<item>WebLogic</item>
-			<item>WebSphere</item>
-			<item>JBoss</item>
-			<item>Tomcat</item>
-			<item>SAP WAS</item>
+			<item> Glassfish</item>
+			<item> WebLogic</item>
+			<item> WebSphere</item>
+			<item> JBoss</item>
+			<item> Tomcat</item>
+			<item> SAP WAS</item>
 		</appservers>
 		<versiebeheersystemen>
 			<item>Git</item>
-			<item>Subversion</item>
-			<item>CVS</item>
-			<item>SAP NWDI</item>
-			<item>ClearCase</item>
+			<item> Subversion</item>
+			<item> CVS</item>
+			<item> SAP NWDI</item>
+			<item> ClearCase</item>
 		</versiebeheersystemen>
 		<testing>
 			<item>JUnit</item>
-			<item>Jest</item>
-			<item>Mockito</item>
-			<item>Cucumber</item>
-			<item>TestNG</item>
-			<item>Spock</item>
+			<item> Jest</item>
+			<item> Mockito</item>
+			<item> Cucumber</item>
+			<item> TestNG</item>
+			<item> Spock</item>
 		</testing>
 		<technologies>
 			<item>HighCharts</item>
-			<item>Selenide</item>
-			<item>Angular</item>
-			<item>Nexus</item>
-			<item>SoapUI</item>
-			<item>Selenium</item>
-			<item>Hudson/Jenkins</item>
-			<item>CruiseControl</item>
-			<item>FinalBuilder</item>
-			<item>SAP Netweaver</item>
-			<item>MKS</item>
-			<item>Ant</item>
-			<item>Maven</item>
-			<item>SAP CRM</item>
-			<item>SAP ISA</item>
-			<item>SAP Webshops</item>
-			<item>Oracle</item>
-			<item>MySQL</item>
-			<item>MaxDb</item>
-			<item>PostgreSQL</item>
-			<item>SQLServer</item>
-			<item>CORBA</item>
-			<item>XML</item>
-			<item>XSLT</item>
-			<item>XML Schema (XSD)</item>
-			<item>JEE</item>
-			<item>J2EE</item>
-			<item>JSP</item>
-			<item>EJB</item>
-			<item>Servlets</item>
-			<item>JPA</item>
-			<item>JSF</item>
-			<item>Webservices</item>
-			<item>WSDL</item>
-			<item>XPath</item>
-			<item>SOA</item>
-			<item>LDAP</item>
-			<item>JAAS</item>
-			<item>Swing</item>
-			<item>Struts</item>
-			<item>Google Analytics</item>
-			<item>BugZilla</item>
-			<item>Jira</item>
-			<item>iDEAL</item>
-			<item>SEO</item>
-			<item>JSTD-016</item>
-			<item>Log4j</item>
-			<item>Hibernate</item>
-			<item>CQRS</item>
-			<item>Spring MVC</item>
-			<item>Sonar</item>
-			<item>Docker</item>
-			<item>Kubernetes</item>
+			<item> Selenide</item>
+			<item> Angular</item>
+			<item> Nexus</item>
+			<item> SoapUI</item>
+			<item> Selenium</item>
+			<item> Hudson/Jenkins</item>
+			<item> CruiseControl</item>
+			<item> FinalBuilder</item>
+			<item> SAP Netweaver</item>
+			<item> MKS</item>
+			<item> Ant</item>
+			<item> Maven</item>
+			<item> SAP CRM</item>
+			<item> SAP ISA</item>
+			<item> SAP Webshops</item>
+			<item> Oracle</item>
+			<item> MySQL</item>
+			<item> MaxDb</item>
+			<item> PostgreSQL</item>
+			<item> SQLServer</item>
+			<item> CORBA</item>
+			<item> XML</item>
+			<item> XSLT</item>
+			<item> XML Schema (XSD)</item>
+			<item> JEE</item>
+			<item> J2EE</item>
+			<item> JSP</item>
+			<item> EJB</item>
+			<item> Servlets</item>
+			<item> JPA</item>
+			<item> JSF</item>
+			<item> Webservices</item>
+			<item> WSDL</item>
+			<item> XPath</item>
+			<item> SOA</item>
+			<item> LDAP</item>
+			<item> JAAS</item>
+			<item> Swing</item>
+			<item> Struts</item>
+			<item> Google Analytics</item>
+			<item> BugZilla</item>
+			<item> Jira</item>
+			<item> iDEAL</item>
+			<item> SEO</item>
+			<item> JSTD-016</item>
+			<item> Log4j</item>
+			<item> Hibernate</item>
+			<item> CQRS</item>
+			<item> Spring MVC</item>
+			<item> Sonar</item>
+			<item> Docker</item>
+			<item> Kubernetes</item>
 		</technologies>
 		<besturingssystemen>
 			<item>Windows</item>
-			<item>Linux</item>
-			<item>Unix</item>
-			<item>OS X</item>
-			<item>iOS</item>
+			<item> Linux</item>
+			<item> Unix</item>
+			<item> OS X</item>
+			<item> iOS</item>
 		</besturingssystemen>
 	</ervaringen>
 	<opdrachten>
