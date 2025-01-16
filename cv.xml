@@ -49,6 +49,14 @@
 		</opleiding>
 	</regulier-onderwijs>
 	<it-opleidingen>
+	<opleiding>
+			<school>zelfstudie</school>
+			<cursus>Python minigames (Manning)</cursus>
+			<periode>
+				<van>2022-07-15</van>
+				<tot>2022-10-05</tot>
+			</periode>
+		</opleiding>
 		<opleiding>
 			<school>zelfstudie</school>
 			<cursus>ISTQB® Certified Tester - Foundation Level</cursus>
