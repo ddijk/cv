@@ -197,6 +197,16 @@
                         </fo:block>
                     </fo:table-cell>
                 </fo:table-row>
+                   <fo:table-row>
+                    <fo:table-cell>
+                        <fo:block>CI/CD platforms:</fo:block>
+                    </fo:table-cell>
+                    <fo:table-cell>
+                        <fo:block>
+                            <xsl:apply-templates select="cicdbeheersystemen/item"/>
+                        </fo:block>
+                    </fo:table-cell>
+                </fo:table-row>
                 <fo:table-row>
                     <fo:table-cell>
                         <fo:block>Testing</fo:block>

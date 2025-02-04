@@ -317,6 +317,12 @@ AMBI Datacommunicatie en netwerken
 			<item> SAP NWDI</item>
 			<item> ClearCase</item>
 		</versiebeheersystemen>
+		<cicdbeheersystemen>
+			<item>GitLab</item>
+			<item> GitHub</item>
+			<item> Microsoft Team Foundation</item>
+			<item> SAP NWDI</item>
+		</cicdbeheersystemen>
 		<testing>
 			<item>JUnit</item>
 			<item> Jest</item>
