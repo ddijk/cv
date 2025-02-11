@@ -322,6 +322,7 @@ AMBI Datacommunicatie en netwerken
 			<item> GitHub</item>
 			<item> Microsoft Team Foundation</item>
 			<item> SAP NWDI</item>
+			<item> Terraform</item>
 		</cicdbeheersystemen>
 		<testing>
 			<item>JUnit</item>
@@ -408,7 +409,7 @@ AMBI Datacommunicatie en netwerken
 			<rol>Java Developer</rol>
 			<werkgebied>Ondersteunen van werkprocessen in letselschadeafhandeling</werkgebied>
 			<bijdrage>Doorontwikkeling van Advobot, een applicatie voor de ondersteuning van letselschadezaken en vergaande automatisering van taken</bijdrage>
-			<technologie>Java 23, React, SpringBoot, Jest, JUnit, Docker, PostgreSQL, IntelliJ, JPA, Mockito</technologie>
+			<technologie>Java 23, React, SpringBoot, Jest, JUnit, Docker, PostgreSQL, IntelliJ, JPA, Mockito, Node</technologie>
 		</opdracht>
 		<opdracht>
 			<periode>
@@ -423,7 +424,7 @@ AMBI Datacommunicatie en netwerken
 			<rol>Java Developer</rol>
 			<werkgebied>App voor studenten om met onderwijsinstelling te communiceren</werkgebied>
 			<bijdrage>Analyse productieproblemen van Python applicatie en aanbrengen van verbeteringen in deze applicatie. Opzetten van nieuwe applicatie in Java en SpringBoot voor het ontsluiten van bestaande backendsystemen t.b.v nieuwe frontend applicaties die verworven waren door overnames</bijdrage>
-			<technologie>Java, Python, AWS, Javascript, SpringBoot, Python, Elastic Search, Git, Maven, Kafka</technologie>
+			<technologie>Java, Python, AWS (Lambda, S3, ECS, ECR), Javascript, Node, SpringBoot, Python, Elastic Search, Git, Maven, Kafka, Terraform</technologie>
 		</opdracht>
 		<opdracht>
 			<periode>
