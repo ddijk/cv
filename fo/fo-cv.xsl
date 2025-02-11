@@ -293,17 +293,17 @@
                         </fo:block>
                     </fo:table-cell>
                 </fo:table-row>
-<!--                <fo:table-row>-->
-<!--                    <fo:table-cell>-->
-<!--                        <fo:block>Klant:</fo:block>-->
-<!--                    </fo:table-cell>-->
-<!--                    <fo:table-cell>-->
-<!--                        <fo:block>-->
-<!--                            <xsl:text></xsl:text>-->
-<!--                            <xsl:value-of select="klant/bedrijfsnaam"/>-->
-<!--                        </fo:block>-->
-<!--                    </fo:table-cell>-->
-<!--                </fo:table-row>-->
+               <fo:table-row>
+                   <fo:table-cell>
+                       <fo:block>Klant:</fo:block>
+                   </fo:table-cell>
+                   <fo:table-cell>
+                       <fo:block>
+                           <xsl:text></xsl:text>
+                           <xsl:value-of select="klant/bedrijfsnaam"/>
+                       </fo:block>
+                   </fo:table-cell>
+               </fo:table-row>
                 <fo:table-row>
                     <fo:table-cell>
                         <fo:block>Rol:</fo:block>

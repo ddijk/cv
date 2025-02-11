@@ -22,7 +22,7 @@
 		<functie>Architect</functie>
 	</personalia>
 	<regulier-onderwijs>
-        <opleiding>
+        <!-- <opleiding>
 			<school>Goede Herder school</school>
 			<cursus>Basisschool </cursus>
 			<periode>
@@ -38,7 +38,7 @@
 				<van>1985-09-01</van>
 				<tot>1991-06-15</tot>
 			</periode>
-		</opleiding>
+		</opleiding> -->
 		<opleiding>
 			<school>TU Delft</school>
 			<cursus>Luchtvaart- en Ruimtevaarttechniek </cursus>
@@ -398,7 +398,7 @@ AMBI Datacommunicatie en netwerken
 			<opdracht>
 			<periode>
 				<van>2023-08-15</van>
-				<tot>nu</tot>
+				<tot>2025-02-01 </tot>
 			</periode>
 			<klant>
 				<bedrijfsnaam>Columbus Letselschade</bedrijfsnaam>
@@ -423,7 +423,7 @@ AMBI Datacommunicatie en netwerken
 			<rol>Java Developer</rol>
 			<werkgebied>App voor studenten om met onderwijsinstelling te communiceren</werkgebied>
 			<bijdrage>Analyse productieproblemen van Python applicatie en aanbrengen van verbeteringen in deze applicatie. Opzetten van nieuwe applicatie in Java en SpringBoot voor het ontsluiten van bestaande backendsystemen t.b.v nieuwe frontend applicaties die verworven waren door overnames</bijdrage>
-			<technologie>Java, Python, AWS, Javascript, SpringBoot, Python, Elastic Search, Git, Maven</technologie>
+			<technologie>Java, Python, AWS, Javascript, SpringBoot, Python, Elastic Search, Git, Maven, Kafka</technologie>
 		</opdracht>
 		<opdracht>
 			<periode>
@@ -438,7 +438,7 @@ AMBI Datacommunicatie en netwerken
 			<rol>Java Developer</rol>
 			<werkgebied>Ondersteuning van agent op straat met app (RAPP)</werkgebied>
 			<bijdrage>Ontwikkeling backend voor ondersteuning van afhandeling winkeldiefstallen, in Java. Ontwikkeling Python scripts voor automatisering build en deployments.</bijdrage>
-			<technologie>Java, Python, Swagger, Angular, Enunciate, OpenAPI, WebLogic, Git, Maven, Jenkins, Mockito, REST-Assured</technologie>
+			<technologie>Java, Python, Swagger, Angular, Git, Maven, Jenkins, Mockito, REST-Assured</technologie>
 		</opdracht>
 		<opdracht>
 			<periode>
@@ -544,7 +544,7 @@ AMBI Datacommunicatie en netwerken
 			<rol>Java Developer</rol>
 			<werkgebied>Financial Planning</werkgebied>
 			<bijdrage>Implementatie van functionele aanpassingen aan een webapplicatie voor Financiële Planning.</bijdrage>
-			<technologie>Scrum, Agile, WebLogic, NetBeans, Struts, SQL, HighCharts, Git, Toad, JQuery, Java, HTML, CSS, REST, SoapUI, Javascript, Jenkins, Maven, Sonar, JUnit, JPA, JSF</technologie>
+			<technologie>Scrum, Agile, WebLogic, NetBeans, Struts, SQL, HighCharts, Git, Toad, JQuery, Java, HTML, CSS, REST, SoapUI, Javascript, Jenkins, Maven, Sonar, JUnit, JMS, JPA, JSF</technologie>
 		</opdracht>
 		<opdracht>
 			<periode>
